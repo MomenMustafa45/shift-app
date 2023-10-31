@@ -8,7 +8,7 @@ const LandingPage = () => {
   return (
     <main className="landing-parent">
       <video src={landingVideo} autoPlay loop className="landing-video" />
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Landing Content */}
       {/* Landing Content */}

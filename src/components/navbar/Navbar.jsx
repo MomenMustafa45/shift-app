@@ -9,11 +9,11 @@ import { faX } from "@fortawesome/free-solid-svg-icons";
 
 const navLinks = [
   { name: "HOME", path: "/" },
-  { name: "ABOUT US", path: "/about" },
-  { name: "SERVICES", path: "/services" },
-  { name: "PARTENERS", path: "/parteners" },
-  { name: "REFERENCE", path: "/refernce" },
-  { name: "NEWS", path: "/news" },
+  { name: "ABOUT US", path: "#about" },
+  { name: "SERVICES", path: "#services" },
+  { name: "PARTENERS", path: "#parteners" },
+  { name: "REFERENCE", path: "#refernce" },
+  { name: "NEWS", path: "#news" },
 ];
 
 const Navbar = () => {
@@ -42,6 +42,7 @@ const Navbar = () => {
           <HashLink
             to={link.path}
             className={`${locationPathname === link.path ? "link-active" : ""}`}
+            smooth
           >
             {link.name}
           </HashLink>
@@ -72,6 +73,8 @@ const Navbar = () => {
               className={`${
                 locationPathname === link.path ? "small-screen-link-active" : ""
               }`}
+              onClick={() => setToggleSmallScreenList(!toggleSmallScreenList)}
+              smooth
             >
               {link.name}
             </HashLink>

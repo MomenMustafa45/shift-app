@@ -3,6 +3,7 @@
   height: auto;
   background-color: #110321;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 
 .landing-video {
