@@ -1,6 +1,5 @@
 import ChooseUsReason from "../../components/choose-us-reason/ChooseUsReason";
 import "./choose-us.css";
-import { FaArrowLeft } from "react-icons/fa6";
 
 const ChooseUs = () => {
   return (
@@ -8,6 +7,7 @@ const ChooseUs = () => {
       <h3>
         WHY CHOOSE <span>US</span>
       </h3>
+
       <div className="reasons-container">
         <ChooseUsReason
           reason="EXPERTISE"

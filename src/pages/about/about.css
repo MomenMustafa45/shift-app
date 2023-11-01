@@ -87,6 +87,10 @@
 }
 
 @media (max-width: 768px) {
+  .about-parent {
+    padding: 50px 20px;
+  }
+
   .about-container {
     flex-direction: column;
   }

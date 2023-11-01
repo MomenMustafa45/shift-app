@@ -15,6 +15,12 @@
   -webkit-text-stroke-color: #9747ff;
 }
 
+@media (max-width: 768px) {
+  .choose-us-parent {
+    padding: 50px 20px;
+  }
+}
+
 @media (max-width: 600px) {
   .choose-us-parent h3 {
     font-size: 35px;

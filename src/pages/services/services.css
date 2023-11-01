@@ -19,7 +19,7 @@
   -webkit-text-stroke-color: #a867ff;
 }
 
-.swiper-next-btn {
+.services-parent .swiper-next-btn {
   position: absolute;
   top: 65%;
   right: 30px;
@@ -35,7 +35,7 @@
   cursor: pointer;
   color: #9747ff;
 }
-.swiper-prev-btn {
+.services-parent .swiper-prev-btn {
   position: absolute;
   top: 65%;
   left: 30px;
@@ -52,12 +52,12 @@
   color: #9747ff;
 }
 
-.swiper {
+.services-parent .swiper {
   width: 100%;
   height: calc(100vh-50px);
 }
 
-.swiper-slide {
+.services-parent .swiper-slide {
   /* Center slide text vertically */
   display: flex !important;
   justify-content: center;
@@ -74,13 +74,13 @@
     margin: 0px 0 15px 0;
   }
 
-  .swiper-next-btn {
+  .services-parent .swiper-next-btn {
     top: 55%;
     right: 10px;
     width: 30px;
     height: 30px;
   }
-  .swiper-prev-btn {
+  .services-parent .swiper-prev-btn {
     top: 55.5%;
     left: 10px;
     width: 30px;
