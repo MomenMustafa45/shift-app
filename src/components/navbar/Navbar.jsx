@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./navbar.css";
 import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +18,9 @@ const navLinks = [
 
 const Navbar = () => {
   const [toggleSmallScreenList, setToggleSmallScreenList] = useState(false);
-  const locationPathname = window.location.pathname;
+  const [locationPathname, setLocationPathname] = useState(
+    window.location.pathname
+  );
 
   return (
     <header className="navbar-parent">
@@ -38,11 +40,13 @@ const Navbar = () => {
         />
       )}
       <nav className="nav-links-container">
-        {navLinks.map((link) => (
+        {navLinks.map((link, index) => (
           <HashLink
             to={link.path}
             className={`${locationPathname === link.path ? "link-active" : ""}`}
             smooth
+            onClick={() => setLocationPathname(link.path)}
+            key={index}
           >
             {link.name}
           </HashLink>
@@ -67,14 +71,18 @@ const Navbar = () => {
         }}
       >
         <nav className="small-screens-links-container">
-          {navLinks.map((link) => (
+          {navLinks.map((link, index) => (
             <HashLink
               to={link.path}
               className={`${
                 locationPathname === link.path ? "small-screen-link-active" : ""
               }`}
-              onClick={() => setToggleSmallScreenList(!toggleSmallScreenList)}
+              onClick={() => {
+                setToggleSmallScreenList(!toggleSmallScreenList);
+                setLocationPathname(link.path);
+              }}
               smooth
+              key={index}
             >
               {link.name}
             </HashLink>
