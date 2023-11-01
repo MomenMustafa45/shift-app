@@ -69,14 +69,12 @@ const ServicesSection = () => {
       <div
         className="swiper-next-btn"
         onClick={() => sliderRef.current?.slideNext()}
-        data-aos="fade-left"
       >
         <FontAwesomeIcon icon={faArrowRight} />
       </div>
       <div
         className="swiper-prev-btn"
         onClick={() => sliderRef.current?.slidePrev()}
-        data-aos="fade-right"
       >
         <FontAwesomeIcon icon={faArrowLeft} />
       </div>
