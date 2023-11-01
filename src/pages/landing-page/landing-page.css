@@ -37,7 +37,7 @@
 
 .landing-content h1 span:last-child {
   color: transparent;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #a867ff;
 }
 

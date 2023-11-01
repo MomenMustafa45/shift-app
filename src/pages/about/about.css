@@ -35,7 +35,7 @@
 
 .about-text h4 span:last-child {
   color: transparent;
-  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #9747ff;
 }
 

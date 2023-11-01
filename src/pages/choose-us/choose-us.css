@@ -1,0 +1,14 @@
+.choose-us-parent {
+  padding: 50px;
+}
+
+.choose-us-parent h3 {
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.choose-us-parent h3 span {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #9747ff;
+}
