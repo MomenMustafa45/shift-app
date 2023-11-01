@@ -1,8 +1,6 @@
-import Navbar from "../../components/navbar/Navbar";
 import "./landing-page.css";
 import landingVideo from "../../assests/landingVideo.mp4";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FaArrowDown } from "react-icons/fa6";
 
 const LandingPage = () => {
   return (
@@ -19,7 +17,7 @@ const LandingPage = () => {
         <div className="landing-content-btn">
           <p>Let's Go</p>
           <div>
-            <FontAwesomeIcon icon={faArrowDown} />
+            <FaArrowDown />
           </div>
         </div>
       </div>

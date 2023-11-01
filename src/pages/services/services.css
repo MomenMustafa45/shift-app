@@ -61,3 +61,18 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 600px) {
+  .services-parent {
+    padding: 40px 50px;
+  }
+
+  .services-header-text h2 {
+    font-size: 25px;
+  }
+  .swiper-next-btn,
+  .swiper-prev-btn {
+    width: 30px;
+    height: 30px;
+  }
+}

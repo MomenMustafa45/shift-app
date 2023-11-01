@@ -1,12 +1,10 @@
 import { useState } from "react";
 import "./navbar.css";
 import { HashLink } from "react-router-hash-link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import navImg from "../../assests/logo shift-01 1.png";
 import navMediaScreensIcon from "../../assests/small-menuIcon.png";
 import { FaX } from "react-icons/fa6";
-// import { faX } from "@fortawesome/free-solid-svg-icons";
+import { BsWhatsapp } from "react-icons/bs";
 
 const navLinks = [
   { name: "HOME", path: "/" },
@@ -63,7 +61,7 @@ const Navbar = () => {
           <p>+966567913779</p>
         </div>
         <div className="header-icon-box">
-          <FontAwesomeIcon icon={faWhatsapp} />
+          <BsWhatsapp />
         </div>
       </div>
 
@@ -99,7 +97,7 @@ const Navbar = () => {
             <p>+966567913779</p>
           </div>
           <div className="header-icon-box">
-            <FontAwesomeIcon icon={faWhatsapp} />
+            <BsWhatsapp />
           </div>
         </div>
       </div>
