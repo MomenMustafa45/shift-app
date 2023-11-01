@@ -66,12 +66,12 @@
 
 @media (max-width: 600px) {
   .services-parent {
-    padding: 40px 50px;
+    padding: 20px 50px;
   }
 
   .services-header-text h2 {
     font-size: 30px;
-    margin: 0px 0 15px 0;
+    margin: 0px 0 5px 0;
   }
 
   .services-parent .swiper-next-btn {
