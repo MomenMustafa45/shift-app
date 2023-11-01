@@ -8,11 +8,11 @@ import { BsWhatsapp } from "react-icons/bs";
 
 const navLinks = [
   { name: "HOME", path: "/" },
-  { name: "ABOUT US", path: "#about" },
-  { name: "SERVICES", path: "#services" },
-  { name: "PARTENERS", path: "#parteners" },
-  { name: "REFERENCE", path: "#refernce" },
-  { name: "NEWS", path: "#news" },
+  { name: "ABOUT US", path: "/#about" },
+  { name: "SERVICES", path: "/services" },
+  { name: "PARTENERS", path: "/#parteners" },
+  { name: "REFERENCE", path: "/#refernce" },
+  { name: "NEWS", path: "/#news" },
 ];
 
 const Navbar = () => {

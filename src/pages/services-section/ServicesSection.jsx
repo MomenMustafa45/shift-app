@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // import services style
-import "./services.css";
+import "./services-section.css";
 
 // Import Swiper styles
 import "swiper/css";
@@ -19,7 +19,8 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import services data
 import { servicesData } from "../../utils/servicesData/servicesData";
 import ServicesCard from "../../components/services-card/ServicesCard";
-const Services = () => {
+
+const ServicesSection = () => {
   const [screenWidth, setScreenWidth] = useState(null);
 
   useEffect(() => {
@@ -29,7 +30,7 @@ const Services = () => {
   const sliderRef = useRef();
 
   return (
-    <section className="services-parent" id="services">
+    <section className="services-parent">
       <div className="services-header-text">
         <h2>
           SHIFT <span>ADVANCED</span> <br />
@@ -81,4 +82,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesSection;

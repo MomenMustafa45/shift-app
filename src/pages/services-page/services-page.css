@@ -1,0 +1,44 @@
+.services-page-parent {
+  overflow: hidden;
+}
+
+.services-page-landing {
+  position: relative;
+  height: calc(100vh - 92px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-page-landing::after {
+  position: absolute;
+  content: "";
+  width: 453px;
+  height: 453px;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  background-image: linear-gradient(to right, #9747ff, transparent 17%);
+  border-radius: 50%;
+  z-index: -1;
+  animation-name: circle-rotate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+}
+@keyframes circle-rotate {
+  100% {
+    transform: translate(50%, -50%) rotate(360deg);
+  }
+}
+
+.services-page-landing h1 {
+  font-size: 50px;
+  color: #9747ff;
+}
+
+@media (max-width: 600px) {
+  .services-page-landing::after {
+    width: 350px;
+    height: 350px;
+  }
+}
