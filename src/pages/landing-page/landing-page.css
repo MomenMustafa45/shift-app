@@ -4,6 +4,8 @@
   background-color: #110321;
   padding-bottom: 30px;
   overflow: hidden;
+  max-width: 2000px;
+  margin: auto;
 }
 
 .landing-video {

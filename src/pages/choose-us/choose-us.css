@@ -1,5 +1,7 @@
 .choose-us-parent {
   padding: 50px;
+  max-width: 2000px;
+  margin: auto;
 }
 
 .choose-us-parent h3 {
@@ -11,4 +13,10 @@
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #9747ff;
+}
+
+@media (max-width: 600px) {
+  .choose-us-parent h3 {
+    font-size: 35px;
+  }
 }

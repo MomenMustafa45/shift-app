@@ -1,0 +1,33 @@
+.choose-us-parent .reason-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #aaaaaa3d;
+}
+
+.choose-us-parent .reason-box .reason-text-container {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  transition: 0.3s all ease-in-out;
+}
+
+.choose-us-parent .reason-box .reason-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #000;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .choose-us-parent .reason-box .reason-text-container {
+    font-size: 15px;
+  }
+}

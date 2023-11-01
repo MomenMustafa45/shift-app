@@ -1,3 +1,4 @@
+import ChooseUsReason from "../../components/choose-us-reason/ChooseUsReason";
 import "./choose-us.css";
 import { FaArrowLeft } from "react-icons/fa6";
 
@@ -8,12 +9,22 @@ const ChooseUs = () => {
         WHY CHOOSE <span>US</span>
       </h3>
       <div className="reasons-container">
-        <div className="reason-box">
-          <p>EXPERTISE</p>
-          <div className="reason-icon-box">
-            <FaArrowLeft style={{ color: "#fff" }} />
-          </div>
-        </div>
+        <ChooseUsReason
+          reason="EXPERTISE"
+          hoverReason="An Example for hover Reason"
+        />
+        <ChooseUsReason
+          reason="Innovation"
+          hoverReason="An Example for hover Reason"
+        />
+        <ChooseUsReason
+          reason="Customization"
+          hoverReason="An Example for hover Reason"
+        />
+        <ChooseUsReason
+          reason="Client-Centric Approach"
+          hoverReason="An Example for hover Reason"
+        />
       </div>
     </section>
   );
