@@ -83,6 +83,21 @@
   }
 }
 
+@media (max-width: 768px) {
+  .reference-parent::before {
+    top: 96px;
+    right: 0px;
+    width: 109px;
+    height: 200px;
+  }
+  .reference-parent::after {
+    top: 300px;
+    left: 0px;
+    width: 109px;
+    height: 200px;
+  }
+}
+
 @media (max-width: 600px) {
   .reference-parent .swiper {
     min-height: 350px;

@@ -7,23 +7,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import { testimonialsData } from "../../utils/testimonialsData/testimonialData";
 
 const Reference = () => {
   return (
-    <section className="reference-parent">
+    <section className="reference-parent" id="reference">
       <h3>
         REFERENCE <span>TESTIMONIALS</span>
       </h3>
 
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
         spaceBetween={0}
         slidesPerView={1}
         pagination={{ clickable: true }}
         data-aos="fade-right"
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       >
         {testimonialsData.map((t, idx) => (
           <>
