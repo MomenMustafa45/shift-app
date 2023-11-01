@@ -1,11 +1,12 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./navbar.css";
 import { HashLink } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import navImg from "../../assests/logo shift-01 1.png";
 import navMediaScreensIcon from "../../assests/small-menuIcon.png";
-import { faX } from "@fortawesome/free-solid-svg-icons";
+import { FaX } from "react-icons/fa6";
+// import { faX } from "@fortawesome/free-solid-svg-icons";
 
 const navLinks = [
   { name: "HOME", path: "/" },
@@ -26,8 +27,12 @@ const Navbar = () => {
     <header className="navbar-parent">
       <img src={navImg} alt="this is nav img" />
       {toggleSmallScreenList ? (
-        <FontAwesomeIcon
-          icon={faX}
+        // <FontAwesomeIcon
+        //   icon={faX}
+        //   style={{ cursor: "pointer", color: "#fff" }}
+        //   onClick={() => setToggleSmallScreenList(!toggleSmallScreenList)}
+        // />
+        <FaX
           style={{ cursor: "pointer", color: "#fff" }}
           onClick={() => setToggleSmallScreenList(!toggleSmallScreenList)}
         />
