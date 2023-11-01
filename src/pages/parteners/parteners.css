@@ -56,3 +56,9 @@
     height: 120px;
   }
 }
+
+@media (max-width: 600px) {
+  .partners-parent h3 {
+    font-size: 30px;
+  }
+}
