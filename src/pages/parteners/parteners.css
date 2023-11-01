@@ -51,4 +51,8 @@
   .partners-parent .swiper {
     width: 100%;
   }
+  .partener-img-container {
+    width: 120px;
+    height: 120px;
+  }
 }
