@@ -24,7 +24,7 @@
   align-items: center;
 }
 .reference-parent .testimonial-box .testimonial-description {
-  max-width: 60%;
+  max-width: 50%;
   text-align: center;
   font-size: 20px;
   color: #fff;
@@ -59,15 +59,19 @@
 }
 
 @media (max-width: 600px) {
+  .reference-parent .swiper {
+    min-height: 350px;
+  }
+
   .reference-parent h3 {
     font-size: 30px;
   }
 
   .reference-parent .testimonial-box .testimonial-description {
-    font-size: 16px;
+    font-size: 15px;
   }
   .reference-parent .testimonial-box .testimonial-rate p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .reference-parent .react-stars span {
