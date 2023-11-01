@@ -71,18 +71,17 @@
     font-size: 30px;
     margin: 0px 0 15px 0;
   }
-  .swiper-next-btn,
-  .swiper-prev-btn {
-    width: 30px;
-    height: 30px;
-  }
 
   .swiper-next-btn {
     top: 55%;
     right: 10px;
+    width: 30px;
+    height: 30px;
   }
   .swiper-prev-btn {
-    top: 55%;
+    top: 57%;
     left: 10px;
+    width: 30px;
+    height: 30px;
   }
 }
