@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section id="about" className="about-parent">
       <div className="about-container">
-        <div className="about-text">
+        <div className="about-text" data-aos="fade-right">
           <h4>
             WHO WE <span>ARE</span>
           </h4>
@@ -20,15 +20,15 @@ const About = () => {
             cost-effective service solutions.
           </p>
         </div>
-        <div className="about-img">
+        <div className="about-img" data-aos="fade-left">
           <img src={img1} alt="this is img" />
         </div>
       </div>
       <div className="about-container">
-        <div className="about-img">
+        <div className="about-img" data-aos="fade-left">
           <img src={img2} alt="this is img" />
         </div>
-        <div className="about-text">
+        <div className="about-text" data-aos="fade-right">
           <h4>Process AutomationPortfolio</h4>
           <p>
             At [Your Company Name], we are passionate about delivering

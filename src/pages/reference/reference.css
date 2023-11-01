@@ -1,5 +1,30 @@
 .reference-parent {
+  position: relative;
   padding: 50px;
+  overflow: hidden;
+}
+
+.reference-parent::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../assests/decoration.png");
+  top: -67px;
+  left: 0px;
+  width: 340px;
+  height: 542px;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.reference-parent::before {
+  content: "";
+  position: absolute;
+  background-image: url("../../assests/decoration.png");
+  top: -67px;
+  right: 0px;
+  width: 340px;
+  height: 542px;
+  background-size: cover;
 }
 
 .reference-parent h3 {

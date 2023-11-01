@@ -1,5 +1,6 @@
 .partners-parent {
   padding: 50px;
+  overflow: hidden;
 }
 .partners-parent h3 {
   font-size: 40px;

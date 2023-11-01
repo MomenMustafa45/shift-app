@@ -1,7 +1,21 @@
 .choose-us-parent {
+  position: relative;
   padding: 50px;
   max-width: 2000px;
   margin: auto;
+  overflow: hidden;
+}
+
+.choose-us-parent::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../assests/decoration.png");
+  top: -87px;
+  left: 0px;
+  width: 182px;
+  height: 295px;
+  background-size: cover;
+  transform: scaleX(-1);
 }
 
 .choose-us-parent h3 {

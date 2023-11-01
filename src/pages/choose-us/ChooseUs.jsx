@@ -12,18 +12,22 @@ const ChooseUs = () => {
         <ChooseUsReason
           reason="EXPERTISE"
           hoverReason="An Example for hover Reason"
+          dataAos="fade-right"
         />
         <ChooseUsReason
           reason="Innovation"
           hoverReason="An Example for hover Reason"
+          dataAos="fade-left"
         />
         <ChooseUsReason
           reason="Customization"
           hoverReason="An Example for hover Reason"
+          dataAos="fade-right"
         />
         <ChooseUsReason
           reason="Client-Centric Approach"
           hoverReason="An Example for hover Reason"
+          dataAos="fade-left"
         />
       </div>
     </section>

@@ -3,11 +3,11 @@ import "./choose-us-reason.css";
 import { useState } from "react";
 import TextTransition, { presets } from "react-text-transition";
 
-const ChooseUsReason = ({ reason, hoverReason }) => {
+const ChooseUsReason = ({ reason, hoverReason, dataAos }) => {
   const [isMouseHovered, setIsMouseHovered] = useState(false);
 
   return (
-    <div className="reason-box">
+    <div className="reason-box" data-aos={dataAos}>
       <div
         className="reason-text-container"
         onMouseEnter={() => setIsMouseHovered(true)}

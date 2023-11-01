@@ -30,6 +30,7 @@ const Parteners = () => {
         spaceBetween={0}
         slidesPerView={windowScreenWidth > 768 ? 5 : 2}
         pagination={{ clickable: true }}
+        data-aos="fade-up"
       >
         {partnersData.map((p, index) => (
           <>

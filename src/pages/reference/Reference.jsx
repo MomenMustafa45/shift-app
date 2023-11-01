@@ -23,6 +23,7 @@ const Reference = () => {
         spaceBetween={0}
         slidesPerView={1}
         pagination={{ clickable: true }}
+        data-aos="fade-right"
       >
         {testimonialsData.map((t, idx) => (
           <>

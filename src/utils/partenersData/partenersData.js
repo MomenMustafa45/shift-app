@@ -1,4 +1,4 @@
-import partnerImg1 from "../../assests/logo shift-01 1.png";
+import partnerImg1 from "../../assests/logo.png";
 import partnerImg2 from "../../assests/partner2.png";
 
 export const partnersData = [

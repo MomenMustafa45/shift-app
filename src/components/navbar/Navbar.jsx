@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./navbar.css";
 import { HashLink } from "react-router-hash-link";
-import navImg from "../../assests/logo shift-01 1.png";
+import navImg from "../../assests/logo.png";
 import navMediaScreensIcon from "../../assests/small-menuIcon.png";
 import { FaX } from "react-icons/fa6";
 import { BsWhatsapp } from "react-icons/bs";
