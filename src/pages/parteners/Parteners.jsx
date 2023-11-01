@@ -8,7 +8,6 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
 
-import img from "../../assests/logo shift-01 1.png";
 import { partnersData } from "../../utils/partenersData/partenersData";
 import { useEffect, useState } from "react";
 
@@ -20,7 +19,7 @@ const Parteners = () => {
   }, []);
 
   return (
-    <section className="partners-parent">
+    <section className="partners-parent" id="parteners">
       <h3>
         OUT <span>PARTENERS</span>
       </h3>

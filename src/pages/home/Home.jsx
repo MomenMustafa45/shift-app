@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Services from "../services/Services";
 import ChooseUs from "../choose-us/ChooseUs";
 import Parteners from "../parteners/Parteners";
+import Reference from "../reference/Reference";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Services />
       <ChooseUs />
       <Parteners />
+      <Reference />
     </>
   );
 };
