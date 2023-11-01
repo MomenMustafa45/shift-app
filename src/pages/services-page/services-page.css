@@ -36,6 +36,64 @@
   color: #9747ff;
 }
 
+/* Animation Lines */
+/* Animation Lines */
+.services-page-landing .line {
+  position: absolute;
+  width: 2px;
+  background: rgb(151, 71, 255);
+  background: linear-gradient(180deg, rgb(151, 71, 255) 49%, transparent 100%);
+  border-radius: 7px;
+  transition: 0.5s all linear;
+}
+
+.services-page-landing .line-small {
+  top: 50px;
+  right: 60px;
+  height: 130px;
+
+  animation: small-line-movement 1s 1s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes small-line-movement {
+  100% {
+    top: -150px;
+  }
+}
+
+.services-page-landing .line-medium {
+  top: 120px;
+  right: 120px;
+  height: 180px;
+
+  animation: medium-line-movement 1s 1.2s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes medium-line-movement {
+  100% {
+    top: -180px;
+  }
+}
+.services-page-landing .line-larg {
+  top: 180px;
+  left: 120px;
+  height: 220px;
+
+  animation: larg-line-movement 1s 1.3s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes larg-line-movement {
+  100% {
+    top: -250px;
+  }
+}
+
+/* Animation Lines */
+/* Animation Lines */
+
 @media (max-width: 600px) {
   .services-page-landing::after {
     width: 350px;

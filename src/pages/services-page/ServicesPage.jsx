@@ -7,6 +7,9 @@ const ServicesPage = () => {
   return (
     <div className="services-page-parent">
       <main className="services-page-landing">
+        <span className="line line-small"></span>
+        <span className="line line-medium"></span>
+        <span className="line line-larg"></span>
         <h1>OUR SERVICES</h1>
       </main>
       <section className="services-page-section">

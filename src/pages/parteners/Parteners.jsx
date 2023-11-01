@@ -28,7 +28,13 @@ const Parteners = () => {
         modules={[Pagination]}
         className="mySwiper"
         spaceBetween={0}
-        slidesPerView={windowScreenWidth > 768 ? 5 : 2}
+        slidesPerView={
+          windowScreenWidth > 900
+            ? 5
+            : windowScreenWidth > 768 && windowScreenWidth < 900
+            ? 4
+            : 2
+        }
         pagination={{ clickable: true }}
         data-aos="fade-up"
       >

@@ -1,10 +1,10 @@
 .about-parent {
   position: relative;
   padding: 50px 50px;
-  background-color: #000828;
+  background-color: #110321;
   padding-bottom: 30px;
   max-width: 2000px;
-  margin: auto;
+  margin: 25px auto 0 auto;
   overflow: hidden;
 }
 

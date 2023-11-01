@@ -21,7 +21,19 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
-      <div className="colored-box"></div>
+      <div className="text-line-scroll">
+        <div className="rightToLeft">
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+          <p>Digital transformation</p>
+        </div>
+      </div>
       {/* Landing Content */}
       {/* Landing Content */}
     </main>
