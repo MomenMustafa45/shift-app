@@ -1,4 +1,5 @@
 import "./choose-us.css";
+import { FaArrowLeft } from "react-icons/fa6";
 
 const ChooseUs = () => {
   return (
@@ -9,7 +10,9 @@ const ChooseUs = () => {
       <div className="reasons-container">
         <div className="reason-box">
           <p>EXPERTISE</p>
-          <div className="reason-icon-box"></div>
+          <div className="reason-icon-box">
+            <FaArrowLeft style={{ color: "#fff" }} />
+          </div>
         </div>
       </div>
     </section>
