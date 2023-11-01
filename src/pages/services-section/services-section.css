@@ -54,20 +54,19 @@
 
 .services-parent .swiper {
   width: 100%;
-  height: calc(100vh-50px);
+  height: 400px;
 }
 
 .services-parent .swiper-slide {
   /* Center slide text vertically */
   display: flex !important;
   justify-content: center;
-  align-items: center;
 }
 
 @media (max-width: 600px) {
   .services-parent .swiper {
     width: 100%;
-    height: calc(100vh-200px);
+    height: 330px;
   }
 
   .services-parent {
