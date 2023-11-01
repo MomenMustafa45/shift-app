@@ -17,6 +17,7 @@
   width: 150px;
   height: 251px;
   background-size: cover;
+  z-index: -1;
 }
 
 .about-parent::after {
@@ -29,6 +30,7 @@
   height: 251px;
   background-size: cover;
   transform: scaleX(-1);
+  z-index: -1;
 }
 
 .about-container {

@@ -14,6 +14,7 @@
   height: 542px;
   background-size: cover;
   transform: scaleX(-1);
+  z-index: -1;
 }
 
 .reference-parent::before {
@@ -25,6 +26,7 @@
   width: 340px;
   height: 542px;
   background-size: cover;
+  z-index: -1;
 }
 
 .reference-parent h3 {
