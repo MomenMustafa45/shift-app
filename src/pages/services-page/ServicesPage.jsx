@@ -2,6 +2,7 @@ import React from "react";
 import "./services-page.css";
 import ServicesPageCard from "../../components/ServicesPageCard/ServicesPageCard";
 import { servicesData } from "../../utils/servicesData/servicesData";
+import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const ServicesPage = () => {
   return (
@@ -11,6 +12,7 @@ const ServicesPage = () => {
         <span className="line line-medium"></span>
         <span className="line line-larg"></span>
         <h1>OUR SERVICES</h1>
+        <LightBluredBall left="0px" />
       </main>
       <section className="services-page-section">
         {servicesData.map((service, index) => (
@@ -25,6 +27,7 @@ const ServicesPage = () => {
           </>
         ))}
       </section>
+      <LightBluredBall right="0px" top="350px" />
     </div>
   );
 };

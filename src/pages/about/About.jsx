@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import img1 from "../../assests/about1.png";
 import img2 from "../../assests/about2.png";
+import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const About = () => {
   return (
@@ -40,6 +41,9 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      <LightBluredBall top="315px" right="-180px" />
+      <LightBluredBall top="200px" left="-205px" />
     </section>
   );
 };

@@ -1,4 +1,5 @@
 import ChooseUsReason from "../../components/choose-us-reason/ChooseUsReason";
+import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 import "./choose-us.css";
 
 const ChooseUs = () => {
@@ -30,6 +31,7 @@ const ChooseUs = () => {
           dataAos="fade-left"
         />
       </div>
+      <LightBluredBall top="287px" left="-172px" />
     </section>
   );
 };
