@@ -58,11 +58,12 @@ const ServicesSection = () => {
       >
         {servicesData.map((card, index) => (
           <>
-            <SwiperSlide key={index}>
+            <SwiperSlide>
               <ServicesCard
                 cardImage={card.img}
                 cardTitle={card.title}
                 cardDescription={card.description}
+                key={index}
               />
             </SwiperSlide>
           </>

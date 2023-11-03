@@ -45,7 +45,10 @@ const Parteners = () => {
         {partnersData.map((p, index) => (
           <>
             <SwiperSlide>
-              <div className="partener-img-container" key={index + 1}>
+              <div
+                className="partener-img-container"
+                key={index + Math.floor(Math.random() * 100 + 1)}
+              >
                 <img src={p.img} alt="" />
               </div>
             </SwiperSlide>

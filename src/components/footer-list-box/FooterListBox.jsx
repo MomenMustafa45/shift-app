@@ -6,9 +6,9 @@ const FooterListBox = ({ listHeader, listItems, dataAos }) => {
     <div className="footer-list-box" data-aos={dataAos}>
       <h5>{listHeader}</h5>
       <ul>
-        {listItems.map((l) => (
+        {listItems.map((l, index) => (
           <>
-            <li>{l}</li>
+            <li key={index}>{l}</li>
           </>
         ))}
       </ul>
