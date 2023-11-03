@@ -10,7 +10,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Autoplay, Navigation } from "swiper/modules";
 
 // import img
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -40,7 +40,7 @@ const ServicesSection = () => {
 
       <Swiper
         onSwiper={(it) => (sliderRef.current = it)}
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         className="mySwiper"
         spaceBetween={0}
         slidesPerView={
@@ -51,6 +51,10 @@ const ServicesSection = () => {
             : 1.25
         }
         data-aos="fade-up"
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       >
         {servicesData.map((card, index) => (
           <>

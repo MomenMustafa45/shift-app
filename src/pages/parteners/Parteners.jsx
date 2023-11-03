@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import { partnersData } from "../../utils/partenersData/partenersData";
 import { useEffect, useState } from "react";
@@ -21,11 +21,11 @@ const Parteners = () => {
   return (
     <section className="partners-parent" id="parteners">
       <h3>
-        OUT <span>PARTENERS</span>
+        OUR <span>PARTENERS</span>
       </h3>
 
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper"
         spaceBetween={0}
         slidesPerView={
@@ -37,6 +37,10 @@ const Parteners = () => {
         }
         pagination={{ clickable: true }}
         data-aos="fade-up"
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
       >
         {partnersData.map((p, index) => (
           <>
