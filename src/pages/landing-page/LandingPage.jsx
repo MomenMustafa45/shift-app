@@ -5,7 +5,14 @@ import { FaArrowDown } from "react-icons/fa6";
 const LandingPage = () => {
   return (
     <main className="landing-parent">
-      <video src={landingVideo} autoPlay loop className="landing-video" />
+      <video
+        src={landingVideo}
+        autoPlay
+        loop
+        className="landing-video"
+        playsInline={true}
+        muted={true}
+      />
 
       {/* Landing Content */}
       {/* Landing Content */}
