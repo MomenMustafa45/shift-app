@@ -51,10 +51,10 @@ const ServicesSection = () => {
             : 1.25
         }
         data-aos="fade-up"
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 3000,
+        //   disableOnInteraction: false,
+        // }}
       >
         {servicesData.map((card, index) => (
           <>
@@ -64,6 +64,7 @@ const ServicesSection = () => {
                 cardTitle={card.title}
                 cardDescription={card.description}
                 key={index}
+                url={card.url}
               />
             </SwiperSlide>
           </>

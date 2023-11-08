@@ -5,13 +5,19 @@
   align-items: start;
   margin: 0 5px;
 }
+
+.card-container a {
+  text-decoration: none;
+}
+
 .card-container .service-card-img-box {
   width: 100%;
   overflow: hidden;
-  min-height: 280px;
+  height: 370px;
 }
 .card-container img {
   width: 100%;
+  min-height: 100%;
 }
 
 .card-container .card-content h5 {

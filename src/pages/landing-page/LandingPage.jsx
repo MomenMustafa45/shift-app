@@ -18,8 +18,8 @@ const LandingPage = () => {
       {/* Landing Content */}
       <div className="landing-content">
         <h1>
-          Navigating <br /> <span>Solutions</span> Your Path <br /> To{" "}
-          <span>Success</span>
+          SLOGAN (Time is now to invest in Digital <br /> Transformation to win
+          in today’s world)
         </h1>
         <div className="landing-content-btn">
           <p>Let's Go</p>

@@ -1,21 +1,22 @@
 import React from "react";
 import "./services-page.css";
 import ServicesPageCard from "../../components/ServicesPageCard/ServicesPageCard";
-import { servicesData } from "../../utils/servicesData/servicesData";
 import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
+import ScrollToTop from "../../components/scroll-to-top/scrollToTop";
 
-const ServicesPage = () => {
+const ServicesPage = ({ title, cardsData, url }) => {
   return (
     <div className="services-page-parent">
+      <ScrollToTop />
       <main className="services-page-landing">
         <span className="line line-small"></span>
         <span className="line line-medium"></span>
         <span className="line line-larg"></span>
-        <h1>OUR SERVICES</h1>
+        <h1>{title}</h1>
         <LightBluredBall left="0px" />
       </main>
       <section className="services-page-section">
-        {servicesData.map((service, index) => (
+        {cardsData.map((service, index) => (
           <>
             <ServicesPageCard
               title={service.title}

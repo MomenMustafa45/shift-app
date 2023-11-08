@@ -8,6 +8,10 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+// Services Cards data
+import { servicesData } from "./utils/servicesData/servicesData";
+import { servicesPagesData } from "./utils/servicesPages/servicesPagesData";
+
 function App() {
   useEffect(() => {
     Aos.init();
@@ -19,7 +23,24 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<ServicesPage />} />
+        <Route
+          path="/services"
+          element={
+            <ServicesPage cardsData={servicesData} title="Our Services" />
+          }
+        />
+        {servicesPagesData.map((service) => (
+          <Route
+            path={service.url}
+            element={
+              <ServicesPage
+                cardsData={service.data}
+                title={service.title}
+                url={service.url}
+              />
+            }
+          />
+        ))}
       </Routes>
       <Footer />
     </div>

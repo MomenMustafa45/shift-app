@@ -13,12 +13,19 @@ const About = () => {
             WHO WE <span>ARE</span>
           </h4>
           <p>
-            At [Your Company Name], we are passionate about delivering
-            innovative and tailored service solutions to meet the unique needs
-            of our clients. With a commitment to excellence and a
-            customer-centric approach, we have established ourselves as a
-            trusted partner for businesses seeking reliable, efficient, and
-            cost-effective service solutions.
+            Shift Advanced Technology is a Digital transformation Company & a
+            leading solution provider of Data Analytics & Business Intelligence
+            (BI) solutions. Shift Technology in Real-time business intelligence
+            enables business users to get up-to-the-minute data by accessing
+            operational systems or loading business transactions into a
+            real-time DW or BI system. It provides detailed information for
+            instant decision making for those companies that require live and
+            immediate response. Let us show you the way! Our Mission To be the
+            partner of choice providing technology solutions and localized
+            content with an eye onto the innovation and digital trends. Our
+            Vision Customer Orientation - Belonging and Ownership - Candor and
+            Transparency - Innovativeness. Our Values Motivated, Innovative,
+            Service, Trust, Relationship, Integrity, Value, & Excellence.
           </p>
         </div>
         <div className="about-img" data-aos="fade-left">

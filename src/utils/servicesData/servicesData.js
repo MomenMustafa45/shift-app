@@ -1,66 +1,98 @@
+// import serveviceImg4 from "../../assests/services4.png";
+// import serveviceImg5 from "../../assests/services5.png";
+// import serveviceImg6 from "../../assests/services6.png";
+// import serveviceImg9 from "../../assests/services9.png";
 import serveviceImg1 from "../../assests/services1.png";
 import serveviceImg2 from "../../assests/services2.png";
 import serveviceImg3 from "../../assests/services3.png";
-import serveviceImg4 from "../../assests/services4.png";
-import serveviceImg5 from "../../assests/services5.png";
-import serveviceImg6 from "../../assests/services6.png";
 import serveviceImg7 from "../../assests/services7.png";
 import serveviceImg8 from "../../assests/services8.png";
-import serveviceImg9 from "../../assests/services9.png";
+import serveviceImg10 from "../../assests/about2.png";
 
 export const servicesData = [
   {
     img: serveviceImg1,
     title: "Data Analytics",
+    url: "/data-analytics",
     description:
-      "Data analytics is the process of examining and interpreting data to extract valuable insights, identify trends, make informed decisions, and ",
+      "With Shift Advanced Technology Data Management solutions, you are able to implement an appropriate information management foundation that can deliver integrated, accurate, and timely data across your organization.",
   },
   {
-    img: serveviceImg2,
-    title: "RPA",
+    img: serveviceImg10,
+    title: "Business Process Automation",
+    url: "/business-process-automation",
     description:
-      "Data analytics is the process of examining and interpreting data to extract valuable insights, identify trends, make informed decisions, ",
+      "Go digital faster with Shift Advanced Technology easy-to-use and powerful business process management and intelligent automation software designed to eliminate paper processes and repetitive, manual tasks with clicks, not code.",
   },
   {
     img: serveviceImg3,
-    title: "AI",
+    title: "Artificial Intelligence (AI)",
+    url: "/artificial-intelligence",
     description:
-      "Artificial Intelligence (AI) has made significant advancements in recent years and is transforming various industries and aspects of our daily ",
+      "Shift Advanced Technology AI solutions include comprehensive, intuitive machine learning tools with automated feature engineering capabilities, resulting in better recommendations for faster, smarter decision making.",
   },
   {
-    img: serveviceImg4,
-    title: "MACHINE LEARNING",
+    img: serveviceImg2,
+    title: "Mobility Services",
+    url: "mobility-services",
     description:
-      "Chatbots are computer programs or artificial intelligence systems designed to simulate human-like conversation with users. They interact with users ",
-  },
-  {
-    img: serveviceImg5,
-    title: "Portals Applications",
-    description:
-      "typically refer to web-based platforms or software applications that serve as gateways or central access ",
-  },
-  {
-    img: serveviceImg6,
-    title: "ENTERPRISE PROJECT ",
-    description:
-      " typically refer to web-based platforms or software applications that serve as gateways or central access ",
+      "Shift offers professional, affordable, and flexible web design services for businesses and organizations as we as for personal projects you may be working on.",
   },
   {
     img: serveviceImg7,
-    title: "MANAGEMENT",
+    title: "EPMO",
+    url: "/enterprise-management",
     description:
-      " appears to be a term that could refer to mobile services or services related to and telecommunications. However, ",
+      "Setup and Operate Program Management Office (EPMO) Shift Advanced Company adopted Project Management Institute “PMI” methodology to manage and control its projects. This helps Shift in applying the knowledge, skills, tools and techniques to project activities to meet clients’ requirements.",
   },
   {
     img: serveviceImg8,
-    title: "CONSULTING SERVICES",
+    title: "Consulting Services",
+    url: "",
     description:
-      "Business Process Automation (BPA) is the use of technology to streamline andautomate repetitive, manual, and time-",
-  },
-  {
-    img: serveviceImg9,
-    title: "internet of things",
-    description:
-      "Business Process Automation (BPA) is the use of technology to streamline andautomate repetitive, manual, and time-",
+      "Data Office Management creating a data strategy and establishing a Data Management & Business Intelligence (DMHO) office. - Project Management Consulting (PMO) - Measuring the Digital Transformation",
   },
 ];
+
+// {
+//     img: serveviceImg2,
+//     title: "RPA",
+//     description:
+//       "Data analytics is the process of examining and interpreting data to extract valuable insights, identify trends, make informed decisions, ",
+//   },
+//   {
+//     img: serveviceImg4,
+//     title: "MACHINE LEARNING",
+//     description:
+//       "Chatbots are computer programs or artificial intelligence systems designed to simulate human-like conversation with users. They interact with users ",
+//   },
+//   {
+//     img: serveviceImg5,
+//     title: "Portals Applications",
+//     description:
+//       "typically refer to web-based platforms or software applications that serve as gateways or central access ",
+//   },
+//   {
+//     img: serveviceImg6,
+//     title: "ENTERPRISE PROJECT ",
+//     description:
+//       " typically refer to web-based platforms or software applications that serve as gateways or central access ",
+//   },
+//   {
+//     img: serveviceImg7,
+//     title: "MANAGEMENT",
+//     description:
+//       " appears to be a term that could refer to mobile services or services related to and telecommunications. However, ",
+//   },
+//   {
+//     img: serveviceImg8,
+//     title: "CONSULTING SERVICES",
+//     description:
+//       "Business Process Automation (BPA) is the use of technology to streamline andautomate repetitive, manual, and time-",
+//   },
+//   {
+//     img: serveviceImg9,
+//     title: "internet of things",
+//     description:
+//       "Business Process Automation (BPA) is the use of technology to streamline andautomate repetitive, manual, and time-",
+//   },
