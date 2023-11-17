@@ -9,7 +9,7 @@ const ServicesCard = ({ cardImage, cardTitle, cardDescription, url }) => {
         </div>
         <div className="card-content">
           <h5>{cardTitle}</h5>
-          <p>{cardDescription}</p>
+          {/* <p>{cardDescription}</p> */}
         </div>
       </HashLink>
     </div>

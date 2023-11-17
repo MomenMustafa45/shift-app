@@ -17,10 +17,12 @@ const LandingPage = () => {
       {/* Landing Content */}
       {/* Landing Content */}
       <div className="landing-content">
-        <h1>
-          SLOGAN (Time is now to invest in Digital <br /> Transformation to win
-          in today’s world)
-        </h1>
+        <h1 className="landing-header-text-bg">SLOGAN</h1>
+        <h1 className="landing-header-text">SLOGAN</h1>
+        <p className="landing-text">
+          Time is now to invest in Digital Transformation to win in today’s
+          world
+        </p>
         <div className="landing-content-btn">
           <p>Let's Go</p>
           <div>

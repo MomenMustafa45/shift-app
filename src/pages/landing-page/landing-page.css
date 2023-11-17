@@ -25,22 +25,45 @@
   align-items: center;
   height: 100%;
   padding: 0 60px;
+  padding-top: 150px;
 }
 
-.landing-content h1 {
+.landing-content .landing-header-text-bg {
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 115px;
+  margin: 0;
+  margin-bottom: 0px;
+  margin-bottom: -130px;
+}
+
+.landing-content .landing-header-text {
+  position: relative;
   font-size: 60px;
-  color: #fff;
   text-align: center;
+  background: -webkit-linear-gradient(#9747ff, #25a3fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.landing-content h1 span {
+.landing-content .landing-header-text span {
   color: #a966ff;
 }
 
-.landing-content h1 span:last-child {
+.landing-content .landing-header-text span:last-child {
   color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #a867ff;
+}
+
+.landing-content .landing-text {
+  color: #fff;
+  margin-top: -35px;
 }
 
 .landing-content-btn {
@@ -52,6 +75,7 @@
   color: #fff;
   font-weight: bold;
   cursor: pointer;
+  margin-top: 40px;
 }
 .landing-content-btn::after {
   content: "";
@@ -129,8 +153,19 @@
 
 /* Media Screens */
 @media (max-width: 600px) {
-  .landing-content h1 {
+  .landing-content .landing-header-text {
     font-size: 30px;
+  }
+
+  .landing-content .landing-header-text-bg {
+    font-size: 70px;
+    margin-bottom: -60px;
+  }
+
+  .landing-content .landing-text {
+    margin-top: -20px;
+    font-size: 15px;
+    text-align: center;
   }
   .landing-content-btn {
     width: 125px;

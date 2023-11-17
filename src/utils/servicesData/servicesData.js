@@ -1,52 +1,48 @@
-// import serveviceImg4 from "../../assests/services4.png";
-// import serveviceImg5 from "../../assests/services5.png";
-// import serveviceImg6 from "../../assests/services6.png";
-// import serveviceImg9 from "../../assests/services9.png";
-import serveviceImg1 from "../../assests/services1.png";
-import serveviceImg2 from "../../assests/services2.png";
-import serveviceImg3 from "../../assests/services3.png";
-import serveviceImg7 from "../../assests/services7.png";
-import serveviceImg8 from "../../assests/services8.png";
-import serveviceImg10 from "../../assests/about2.png";
+import serveviceImg1 from "../../assests/serviceImg1.png";
+import serveviceImg2 from "../../assests/serviceImg2.png";
+import serveviceImg3 from "../../assests/serviceImg3.png";
+import serveviceImg4 from "../../assests/serviceImg4.png";
+import serveviceImg5 from "../../assests/serviceImg5.png";
+import serveviceImg6 from "../../assests/serviceImg6.png";
 
 export const servicesData = [
   {
-    img: serveviceImg1,
+    img: serveviceImg3,
     title: "Data Analytics",
     url: "/data-analytics",
     description:
       "With Shift Advanced Technology Data Management solutions, you are able to implement an appropriate information management foundation that can deliver integrated, accurate, and timely data across your organization.",
   },
   {
-    img: serveviceImg10,
+    img: serveviceImg2,
     title: "Business Process Automation",
     url: "/business-process-automation",
     description:
       "Go digital faster with Shift Advanced Technology easy-to-use and powerful business process management and intelligent automation software designed to eliminate paper processes and repetitive, manual tasks with clicks, not code.",
   },
   {
-    img: serveviceImg3,
+    img: serveviceImg1,
     title: "Artificial Intelligence (AI)",
     url: "/artificial-intelligence",
     description:
       "Shift Advanced Technology AI solutions include comprehensive, intuitive machine learning tools with automated feature engineering capabilities, resulting in better recommendations for faster, smarter decision making.",
   },
   {
-    img: serveviceImg2,
+    img: serveviceImg6,
     title: "Mobility Services",
     url: "mobility-services",
     description:
       "Shift offers professional, affordable, and flexible web design services for businesses and organizations as we as for personal projects you may be working on.",
   },
   {
-    img: serveviceImg7,
-    title: "EPMO",
+    img: serveviceImg5,
+    title: "Enterprise project Management",
     url: "/enterprise-management",
     description:
       "Setup and Operate Program Management Office (EPMO) Shift Advanced Company adopted Project Management Institute “PMI” methodology to manage and control its projects. This helps Shift in applying the knowledge, skills, tools and techniques to project activities to meet clients’ requirements.",
   },
   {
-    img: serveviceImg8,
+    img: serveviceImg4,
     title: "Consulting Services",
     url: "",
     description:
