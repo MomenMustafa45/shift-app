@@ -17,7 +17,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 // import services data
-import { servicesData } from "../../utils/servicesData/servicesData";
+import { servicesDataSection } from "../../utils/servicesData/servicesData";
 import ServicesCard from "../../components/services-card/ServicesCard";
 
 const ServicesSection = () => {
@@ -56,7 +56,7 @@ const ServicesSection = () => {
         //   disableOnInteraction: false,
         // }}
       >
-        {servicesData.map((card, index) => (
+        {servicesDataSection.map((card, index) => (
           <>
             <SwiperSlide>
               <ServicesCard

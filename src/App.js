@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 // Services Cards data
-import { servicesData } from "./utils/servicesData/servicesData";
+import { servicesDataPage } from "./utils/servicesData/servicesData";
 import { servicesPagesData } from "./utils/servicesPages/servicesPagesData";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route
           path="/services"
           element={
-            <ServicesPage cardsData={servicesData} title="Our Services" />
+            <ServicesPage cardsData={servicesDataPage} title="Our Services" />
           }
         />
         {servicesPagesData.map((service) => (
@@ -37,6 +37,9 @@ function App() {
                 cardsData={service.data}
                 title={service.title}
                 url={service.url}
+                headerPageImg={service.headerImg}
+                headerPageText={service.headerDescription}
+                extraImages={service.extraImages}
               />
             }
           />

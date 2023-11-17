@@ -1,9 +1,18 @@
 import React, { useEffect, useState } from "react";
 import "./services-page-card.css";
+import icon from "../../assests/icons/icon1.png";
 
-const ServicesPageCard = ({ img, title, description, direction = "left" }) => {
+const ServicesPageCard = ({
+  img,
+  title,
+  description,
+  direction = "left",
+  extraImages,
+}) => {
   const [screenWidth, setScreenWidth] = useState(null);
   const [itemsDirection, setItemsDirection] = useState(direction);
+
+  console.log(extraImages);
 
   useEffect(() => {
     setItemsDirection(direction);
@@ -19,21 +28,43 @@ const ServicesPageCard = ({ img, title, description, direction = "left" }) => {
       {itemsDirection === "left" ? (
         <>
           <div className="services-text" data-aos="fade-right">
-            <h4>{title}</h4>
-            <p>{description}</p>
+            <h4>
+              <span>{title.slice(0, title.indexOf(" "))}</span>
+              {title.slice(title.indexOf(" "))}
+            </h4>
+            {description.map((p) => (
+              <div className="desc-container">
+                <div className="icon-container">
+                  <img src={icon} alt="" />
+                </div>
+
+                <p>{p}</p>
+              </div>
+            ))}
           </div>
           <div className="services-img" data-aos="fade-left">
-            <img src={img} alt="this is img" />
+            <img src={img} alt="." />
           </div>
         </>
       ) : (
         <>
           <div className="services-img" data-aos="fade-right">
-            <img src={img} alt="this is img" />
+            <img src={img} alt="." />
           </div>{" "}
           <div className="services-text" data-aos="fade-left">
-            <h4>{title}</h4>
-            <p>{description}</p>
+            <h4>
+              <span>{title.slice(0, title.indexOf(" "))}</span>
+              {title.slice(title.indexOf(" "))}
+            </h4>
+            {description.map((p) => (
+              <div className="desc-container">
+                <div className="icon-container">
+                  <img src={icon} alt="" />
+                </div>
+
+                <p>{p}</p>
+              </div>
+            ))}
           </div>
         </>
       )}
