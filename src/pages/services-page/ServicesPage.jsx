@@ -3,6 +3,7 @@ import "./services-page.css";
 import ServicesPageCard from "../../components/ServicesPageCard/ServicesPageCard";
 import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 import ScrollToTop from "../../components/scroll-to-top/scrollToTop";
+import { useState } from "react";
 
 const ServicesPage = ({
   title,
@@ -11,7 +12,12 @@ const ServicesPage = ({
   headerPageImg,
   headerPageText,
   extraImages,
+  servicePagination,
+  cardsDataSecond,
+  cardsDataThird,
 }) => {
+  const [currentPaginationPage, setCurrentPaginationPage] = useState("DMO");
+
   return (
     <div className="services-page-parent">
       <ScrollToTop />
@@ -30,18 +36,56 @@ const ServicesPage = ({
           <p>{headerPageText}</p>
         </div>
       )}
+
       <section className="services-page-section">
-        {cardsData.map((service, index) => (
-          <>
-            <ServicesPageCard
-              title={service.title}
-              description={service.description}
-              img={service.img}
-              key={index}
-              direction={index % 2 === 0 ? "left" : "right"}
-            />
-          </>
-        ))}
+        {servicePagination && (
+          <div className="pagination-services-container">
+            {servicePagination.map((p) => (
+              <p
+                className={p === currentPaginationPage ? "active" : ""}
+                onClick={() => setCurrentPaginationPage(p)}
+              >
+                {p}
+              </p>
+            ))}
+          </div>
+        )}
+
+        {currentPaginationPage === "PMO" && cardsDataSecond
+          ? cardsDataSecond.map((service, index) => (
+              <>
+                <ServicesPageCard
+                  title={service.title}
+                  description={service.description}
+                  img={service.img}
+                  key={index}
+                  direction={index % 2 === 0 ? "left" : "right"}
+                />
+              </>
+            ))
+          : currentPaginationPage === "DT" && cardsDataThird
+          ? cardsDataThird.map((service, index) => (
+              <>
+                <ServicesPageCard
+                  title={service.title}
+                  description={service.description}
+                  img={service.img}
+                  key={index}
+                  direction={index % 2 === 0 ? "left" : "right"}
+                />
+              </>
+            ))
+          : cardsData.map((service, index) => (
+              <>
+                <ServicesPageCard
+                  title={service.title}
+                  description={service.description}
+                  img={service.img}
+                  key={index}
+                  direction={index % 2 === 0 ? "left" : "right"}
+                />
+              </>
+            ))}
       </section>
       <div className="extra-images-container">
         {extraImages?.map((img) => (

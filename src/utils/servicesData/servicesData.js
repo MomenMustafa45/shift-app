@@ -17,43 +17,49 @@ export const servicesDataPage = [
     img: servicePageImg2,
     title: "Data Analytics",
     url: "/data-analytics",
-    description:
+    description: [
       "With Shift Advanced Technology Data Management solutions, you are able to implement an appropriate information management foundation that can deliver integrated, accurate, and timely data across your organization.",
+    ],
   },
   {
     img: servicePageImg1,
     title: "Business process automation",
     url: "/business-process-automation",
-    description:
+    description: [
       "Go digital faster with Shift Advanced Technology easy-to-use and powerful business process management and intelligent automation software designed to eliminate paper processes and repetitive, manual tasks with clicks.",
+    ],
   },
   {
     img: servicePageImg3,
     title: "Artificial Intelligence (AI) & Machine Learning (ML)",
     url: "/artificial-intelligence",
-    description:
+    description: [
       "With our AI,ML, IoT, and data solutions, we are speeding digital transformation for an ever-expanding range of businesses.",
+    ],
   },
   {
     img: servicePageImg4,
     title: "Mobility Services",
     url: "mobility-services",
-    description:
+    description: [
       "Shift offers professional, affordable, and flexible web design services for businesses and organizations as we as for personal projects you may be working on.",
+    ],
   },
   {
     img: servicePageImg5,
     title: "Enterprise project Management",
     url: "/enterprise-management",
-    description:
+    description: [
       "Shift Advanced Company adopted Project Management Institute “PMI” methodology to manage and control its projects. This helps Shift in applying the knowledge, skills, tools and techniques to project activities to meet clients’ requirements.",
+    ],
   },
   {
     img: servicePageImg6,
     title: "Consulting Services",
     url: "",
-    description:
+    description: [
       "Shift Advanced can help the organization develop and implement a data strategy, establish a DM&BI Office, and create an effective operating model for managing data and delivering business intelligence services by following steps:",
+    ],
   },
 ];
 

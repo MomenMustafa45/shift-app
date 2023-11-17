@@ -136,6 +136,47 @@
 /* Extra Images in Page */
 /* Extra Images in Page */
 
+/* Services Pagination */
+/* Services Pagination */
+.services-page-parent .services-page-section .pagination-services-container {
+  display: flex;
+  color: #fff;
+  width: 40%;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+.services-page-parent .services-page-section .pagination-services-container p {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+}
+.services-page-parent
+  .services-page-section
+  .pagination-services-container
+  .active {
+  color: #9747ff;
+}
+
+.services-page-parent
+  .services-page-section
+  .pagination-services-container
+  .active::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 3px;
+  background-color: #9747ff;
+  border-radius: 7px;
+  bottom: -1px;
+  left: 0px;
+}
+
+/* Services Pagination */
+/* Services Pagination */
+
 @media (max-width: 600px) {
   .services-page-landing::after {
     width: 350px;

@@ -29,8 +29,12 @@ const ServicesPageCard = ({
         <>
           <div className="services-text" data-aos="fade-right">
             <h4>
-              <span>{title.slice(0, title.indexOf(" "))}</span>
-              {title.slice(title.indexOf(" "))}
+              {title.length > 0 && (
+                <>
+                  <span>{title.slice(0, title.indexOf(" "))}</span>
+                  {title.slice(title.indexOf(" "))}
+                </>
+              )}
             </h4>
             {description.map((p) => (
               <div className="desc-container">
@@ -53,8 +57,12 @@ const ServicesPageCard = ({
           </div>{" "}
           <div className="services-text" data-aos="fade-left">
             <h4>
-              <span>{title.slice(0, title.indexOf(" "))}</span>
-              {title.slice(title.indexOf(" "))}
+              {title.length > 0 && (
+                <>
+                  <span>{title.slice(0, title.indexOf(" "))}</span>
+                  {title.slice(title.indexOf(" "))}
+                </>
+              )}
             </h4>
             {description.map((p) => (
               <div className="desc-container">

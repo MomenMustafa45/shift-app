@@ -1,6 +1,9 @@
 import imgData1 from "../../assests/services-page-images/servicePageImg1.png";
 import artificialImage from "../../assests/services-page-images/artificialImg.png";
 import enterPriceImage from "../../assests/services-page-images/EMPO1.png";
+import consultImage1 from "../../assests/services-page-images/consultingImg1.png";
+import consultImage2 from "../../assests/services-page-images/consultingImg2.png";
+import consultImage3 from "../../assests/services-page-images/consultingImg3.png";
 // import Header page img im
 import serviceHeaderPageImg1 from "../../assests/services-header-images/servicesHeaderImg1.png";
 import serviceHeaderPageImg2 from "../../assests/services-header-images/servicesHeaderImg2.png";
@@ -254,12 +257,106 @@ export const servicesPagesData = [
       "Shift Advanced can help the organization develop and implement a data strategy, establish a DM&BI Office, and create an effective operating model for managing data and delivering business intelligence services by following steps:",
     data: [
       {
+        img: consultImage1,
+        title: "Data Office Management",
+        description: [
+          "creating a data strategy and establishing a Data Management & Business Intelligence (DMHO) office.",
+          "Shift Advanced can help the organization develop and implement a data strategy, establish a DM&BI Office, and create an effective operating model for managing data and delivering business intelligence services by following steps:",
+        ],
+      },
+      {
         img: "",
-        title:
-          "The project work and desired results is achieved through the application and integration of 5 process groups as follows:",
-        description:
-          "1. Provide supportive information that helps Executive management in prioritizing and approving yearly Initiatives and Projects. 2. Ensures successful implementation of projects and initiatives 3. Keeps management well informed about the status of projects 4. Suggests corrective actions and mitigation procedures when necessary 5. Shift Technology will configure & provide the PMO Tool Microsoft Enterprise Program Management (EPM).",
+        title: "",
+        description: ["Understand the business context"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Assess the current data landscape"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Develop the data strategy"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Establish the DM&BI Office"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Develop the DM&BI Office Operating Model"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Execute the data strategy"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Measure and optimize"],
+      },
+      {
+        img: "",
+        title: "",
+        description: ["Design the DM&BI Office structure"],
       },
     ],
+    dataSecond: [
+      {
+        img: consultImage2,
+        title: "Project Management Consulting (PMO)",
+        description: [
+          "The most prominent benefits of successful project management can be summarized as follows:",
+          "Improve the organization's chances of reaching the results it desires",
+          "Prioritize resources and ensure the most efficient use of resources",
+          "Clearly define the scope of work and project constraints from the outset",
+          "Raising the quality of work and productivity",
+          "Meet the needs of clients and project stakeholders",
+        ],
+      },
+    ],
+    dataThird: [
+      {
+        img: consultImage3,
+        title: "Measuring the Digital Transformation",
+        description: [
+          "Shift Advanced Company support organisations in Measuring government digital transformation QIYAS 11:",
+        ],
+      },
+      {
+        img: "",
+        title: "",
+        description: [
+          "Improving the level of performance and effectiveness of government agencies",
+          "Supporting and developing government digital transformation",
+          "Improving the quality of services provided to beneficiaries ",
+          "Raising levels of government agencies’ commitment to orders and decisions related to digital transformation",
+          "Contributing to the progress of the Kingdom of Saudi Arabia in international indicators",
+        ],
+      },
+      {
+        img: "",
+        title: "",
+        description: [
+          "Shift Advanced Bienifits in QIYAS 11:",
+          "Providing consultations that help raise the level of maturity of digital services in government agencies in a manner consistent with measurement perspectives and axes.",
+          "Assist in preparing and developing all documents and plans that the entity will submit for measurement.",
+        ],
+      },
+      {
+        img: "",
+        title: "",
+        description: [
+          "Review and correct all documents required for measurement.",
+          "Providing consultations that help entities comply with regulations and legislation. ",
+          "Providing training programs specialized in digital transformation to raise awareness and transfer knowledge to government agencies",
+        ],
+      },
+    ],
+    paginationTexts: ["DMO", "PMO", "DT"],
   },
 ];

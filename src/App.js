@@ -35,11 +35,14 @@ function App() {
             element={
               <ServicesPage
                 cardsData={service.data}
+                cardsDataSecond={service.dataSecond}
+                cardsDataThird={service.dataThird}
                 title={service.title}
                 url={service.url}
                 headerPageImg={service.headerImg}
                 headerPageText={service.headerDescription}
                 extraImages={service.extraImages}
+                servicePagination={service.paginationTexts}
               />
             }
           />
