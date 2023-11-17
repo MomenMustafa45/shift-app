@@ -47,14 +47,14 @@ const ServicesPageCard = ({
             ))}
           </div>
           <div className="services-img" data-aos="fade-left">
-            <img src={img} alt="." />
+            {img.length > 0 && <img src={img} alt="." />}
           </div>
         </>
       ) : (
         <>
           <div className="services-img" data-aos="fade-right">
-            <img src={img} alt="." />
-          </div>{" "}
+            {img.length > 0 && <img src={img} alt="." />}
+          </div>
           <div className="services-text" data-aos="fade-left">
             <h4>
               {title.length > 0 && (
