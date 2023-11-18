@@ -44,7 +44,7 @@
 
 /* Footer Img */
 .footer-parent .footer-img-container {
-  min-width: 298px;
+  width: 200px;
 }
 
 .footer-parent .footer-img-container img {

@@ -25,7 +25,7 @@ const Reference = () => {
         pagination={{ clickable: true }}
         data-aos="fade-right"
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
       >
@@ -41,7 +41,6 @@ const Reference = () => {
                     value={t.rate}
                     activeColor="#FFD700"
                   />
-                  <p className="testi-user">{t.user}</p>
                 </div>
               </div>
             </SwiperSlide>

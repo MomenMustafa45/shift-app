@@ -1,5 +1,5 @@
 import "./footer.css";
-import footerImg from "../../assests/logo.png";
+import footerImg from "../../assests/logoFooter.png";
 import { BsSnapchat, BsInstagram } from "react-icons/bs";
 import { FiFacebook } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
@@ -21,12 +21,19 @@ const Footer = () => {
         </div>
         <FooterListBox
           listHeader="ABOUT US"
-          listItems={["AI", "CK", "RPA", "EPMO", "MORE"]}
+          listItems={["WHO WE ARE", "Our Mission", "Our Vision", "Our Values"]}
           dataAos="fade-up"
         />
         <FooterListBox
           listHeader="SERVICE"
-          listItems={["AI", "CK", "RPA", "EPMO", "MORE"]}
+          listItems={[
+            "Data Analytics",
+            "Business process automation",
+            "Artificial Intelligence - ai",
+            "Mobility services",
+            "Enterprise project Management",
+            "CONSULTING SERVICES",
+          ]}
           dataAos="fade-down"
         />
       </div>
