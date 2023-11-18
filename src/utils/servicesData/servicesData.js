@@ -56,7 +56,7 @@ export const servicesDataPage = [
   {
     img: servicePageImg6,
     title: "Consulting Services",
-    url: "",
+    url: "/consulting-services",
     description: [
       "Shift Advanced can help the organization develop and implement a data strategy, establish a DM&BI Office, and create an effective operating model for managing data and delivering business intelligence services by following steps:",
     ],
@@ -71,12 +71,12 @@ export const servicesDataSection = [
   },
   {
     img: serviceSectionImg2,
-    title: "Business process automation",
+    title: "Business process Automation",
     url: "/business-process-automation",
   },
   {
     img: serviceSectionImg3,
-    title: "Artificial Intelligence (AI) & Machine Learning (ML)",
+    title: "Artificial Intelligence - Ai",
     url: "/artificial-intelligence",
   },
   {
@@ -86,12 +86,12 @@ export const servicesDataSection = [
   },
   {
     img: serviceSectionImg5,
-    title: "Enterprise project Management",
+    title: "Enterprise Project Management",
     url: "/enterprise-management",
   },
   {
     img: serviceSectionImg6,
-    title: "Consulting Services",
+    title: "CONSULTING SERVICES",
     url: "/consulting-services",
   },
 ];

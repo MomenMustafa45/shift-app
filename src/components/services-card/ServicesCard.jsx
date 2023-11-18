@@ -9,7 +9,7 @@ const ServicesCard = ({ cardImage, cardTitle, cardDescription, url }) => {
           <img src={cardImage} alt="Hello" />
         </div>
         <div className="card-content">
-          <h5>{cardTitle}</h5>
+          <h5>{cardTitle.toUpperCase()}</h5>
           {/* <p>{cardDescription}</p> */}
         </div>
       </HashLink>
