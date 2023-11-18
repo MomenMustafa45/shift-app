@@ -129,6 +129,7 @@
   display: flex;
   align-items: center;
   bottom: 0;
+  width: 100%;
 }
 
 .text-line-scroll div {
@@ -136,6 +137,7 @@
   gap: 2em;
   transform: translateX(0%);
   animation: rightToLeft 10s infinite linear;
+  width: 100%;
 }
 
 .text-line-scroll div a {

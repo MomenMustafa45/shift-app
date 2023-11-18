@@ -2,6 +2,7 @@ import "./landing-page.css";
 import landingVideo from "../../assests/landingVideo.mp4";
 import { FaArrowDown } from "react-icons/fa6";
 import { HashLink } from "react-router-hash-link";
+import Marquee from "react-fast-marquee";
 
 const textLineArray = [
   { text: "Data Analytics", path: "/data-analytics" },
@@ -47,7 +48,7 @@ const LandingPage = () => {
 
       <div className="text-line-scroll">
         <div className="rightToLeft">
-          <marquee direction="left" width="100%" loop={true} behavior="smooth">
+          <Marquee loop={0} speed={80} autoFill={true} play={true}>
             {textLineArray.map((p) => (
               <span>
                 {""}
@@ -56,7 +57,7 @@ const LandingPage = () => {
                 </HashLink>
               </span>
             ))}
-          </marquee>
+          </Marquee>
         </div>
       </div>
       {/* Landing Content */}
