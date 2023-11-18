@@ -156,6 +156,9 @@
 
 /* Media Screens */
 @media (max-width: 600px) {
+  .landing-parent {
+    height: auto;
+  }
   .landing-content .landing-header-text {
     font-size: 30px;
   }

@@ -147,6 +147,17 @@
 
 /* Lights */
 
+/* TEXT LINE */
+/* TEXT LINE */
+.about-parent .rfm-marquee-container a {
+  text-decoration: none;
+  color: rgba(250, 255, 254, 0.3);
+  margin-right: 30px;
+}
+
+/* TEXT LINE */
+/* TEXT LINE */
+
 @media (max-width: 768px) {
   .about-parent {
     padding: 50px 20px;
