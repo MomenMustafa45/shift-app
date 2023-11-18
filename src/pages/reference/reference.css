@@ -2,6 +2,7 @@
   position: relative;
   padding: 50px;
   overflow: hidden;
+  background-color: #000828;
 }
 
 .reference-parent::after {

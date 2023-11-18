@@ -46,20 +46,12 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <div className="text-line-scroll">
-        <div className="rightToLeft">
-          <Marquee loop={0} speed={80} autoFill={true} play={true}>
-            {textLineArray.map((p) => (
-              <span>
-                {""}
-                <HashLink target="_blank" to={p.path}>
-                  {p.text.toUpperCase()}
-                </HashLink>
-              </span>
-            ))}
-          </Marquee>
-        </div>
-      </div>
+      {/* <div className="text-line-scroll"> */}
+
+      {/* <div className="rightToLeft"> */}
+
+      {/* </div> */}
+      {/* </div> */}
       {/* Landing Content */}
       {/* Landing Content */}
     </main>

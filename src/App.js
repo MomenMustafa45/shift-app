@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Marquee from "react-fast-marquee";
 
 // Services Cards data
 import { servicesDataPage } from "./utils/servicesData/servicesData";

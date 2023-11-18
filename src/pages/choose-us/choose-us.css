@@ -4,6 +4,7 @@
   max-width: 2000px;
   margin: auto;
   overflow: hidden;
+  background-color: #000828;
 }
 
 .choose-us-parent::after {

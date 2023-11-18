@@ -3,10 +3,31 @@ import "./about.css";
 import img1 from "../../assests/about1.png";
 import img2 from "../../assests/about2.png";
 import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
+import Marquee from "react-fast-marquee";
+import { HashLink } from "react-router-hash-link";
+
+const textLineArray = [
+  { text: "Data Analytics", path: "/data-analytics" },
+  { text: "Business process Automation", path: "/business-process-automation" },
+  { text: "Artificial Intelligence - Ai", path: "/artificial-intelligence" },
+  { text: "Mobility Services", path: "/mobility-services" },
+  { text: "Enterprise Project Management", path: "/enterprise-management" },
+  { text: "CONSULTING SERVICES", path: "/consulting-services" },
+];
 
 const About = () => {
   return (
     <section id="about" className="about-parent">
+      <Marquee style={{ marginBottom: "80px" }}>
+        {textLineArray.map((p) => (
+          <span>
+            {""}
+            <HashLink target="_blank" to={p.path}>
+              {p.text.toUpperCase()}
+            </HashLink>
+          </span>
+        ))}
+      </Marquee>
       <div className="about-container">
         <div className="about-text" data-aos="fade-right">
           <h4>
