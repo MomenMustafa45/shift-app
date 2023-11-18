@@ -21,7 +21,7 @@ const Parteners = () => {
   return (
     <section className="partners-parent" id="parteners">
       <h3>
-        OUR <span>PARTENERS</span>
+        OUR <span>PARTNERS</span>
       </h3>
 
       <Swiper

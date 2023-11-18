@@ -1,10 +1,15 @@
 .navbar-parent {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 15px;
   background-color: #110321;
+  top: 0;
+  left: 0;
+  z-index: 999999999999999;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* Nav Links */
@@ -53,6 +58,7 @@
   border-radius: 44px;
   background-image: linear-gradient(to right, #5b43fb, #48c6ff);
   cursor: pointer;
+  text-decoration: none;
 }
 .header-btn p {
   margin: 0;

@@ -11,7 +11,7 @@
 .landing-video {
   position: absolute;
   width: 100%;
-  top: 92px;
+  top: 20px;
   z-index: 1;
 }
 
@@ -138,16 +138,18 @@
   animation: rightToLeft 10s infinite linear;
 }
 
-.text-line-scroll div p {
+.text-line-scroll div a {
   color: #fafffe73;
   text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 20px;
 }
 
-@keyframes rightToLeft {
+/* @keyframes rightToLeft {
   100% {
     transform: translateX(-50%);
   }
-}
+} */
 
 /* Loop infinit text */
 

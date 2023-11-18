@@ -1,13 +1,14 @@
 .card-container {
   display: flex;
   flex-direction: column;
-  width: 382px;
+  width: 100%;
   align-items: start;
   margin: 0 5px;
 }
 
 .card-container a {
   text-decoration: none;
+  width: 100%;
 }
 
 .card-container .service-card-img-box {
@@ -39,7 +40,7 @@
   }
 
   .card-container .service-card-img-box {
-    max-height: 200px;
+    /* max-height: 200px; */
   }
 }
 

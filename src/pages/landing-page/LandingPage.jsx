@@ -1,6 +1,16 @@
 import "./landing-page.css";
 import landingVideo from "../../assests/landingVideo.mp4";
 import { FaArrowDown } from "react-icons/fa6";
+import { HashLink } from "react-router-hash-link";
+
+const textLineArray = [
+  { text: "Data Analytics", path: "/data-analytics" },
+  { text: "Business process Automation", path: "/business-process-automation" },
+  { text: "Artificial Intelligence - Ai", path: "/artificial-intelligence" },
+  { text: "Mobility Services", path: "/mobility-services" },
+  { text: "Enterprise Project Management", path: "/enterprise-management" },
+  { text: "CONSULTING SERVICES", path: "/consulting-services" },
+];
 
 const LandingPage = () => {
   return (
@@ -17,30 +27,36 @@ const LandingPage = () => {
       {/* Landing Content */}
       {/* Landing Content */}
       <div className="landing-content">
-        <h1 className="landing-header-text-bg">SLOGAN</h1>
-        <h1 className="landing-header-text">SLOGAN</h1>
-        <p className="landing-text">
+        <h1 className="landing-header-text-bg" data-aos="fade-right">
+          SLOGAN
+        </h1>
+        <h1 className="landing-header-text" data-aos="fade-left">
+          SLOGAN
+        </h1>
+        <p className="landing-text" data-aos="fade-up">
           Time is now to invest in Digital Transformation to win in today’s
           world
         </p>
-        <div className="landing-content-btn">
+        <div className="landing-content-btn" data-aos="fade-right">
           <p>Let's Go</p>
           <div>
             <FaArrowDown />
           </div>
         </div>
       </div>
+
       <div className="text-line-scroll">
         <div className="rightToLeft">
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
-          <p>Digital transformation</p>
+          <marquee direction="left" width="100%" loop={true} behavior="smooth">
+            {textLineArray.map((p) => (
+              <span>
+                {""}
+                <HashLink target="_blank" to={p.path}>
+                  {p.text.toUpperCase()}
+                </HashLink>
+              </span>
+            ))}
+          </marquee>
         </div>
       </div>
       {/* Landing Content */}

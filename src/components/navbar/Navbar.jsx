@@ -10,7 +10,7 @@ const navLinks = [
   { name: "HOME", path: "/" },
   { name: "ABOUT US", path: "/#about" },
   { name: "SERVICES", path: "/services" },
-  { name: "PARTENERS", path: "/#parteners" },
+  { name: "PARTNERS", path: "/#partners" },
   { name: "REFERENCE", path: "/#reference" },
   { name: "NEWS", path: "/#news" },
 ];
@@ -23,7 +23,9 @@ const Navbar = () => {
 
   return (
     <header className="navbar-parent">
-      <img src={navImg} alt="this is nav img" />
+      <HashLink to="/">
+        <img src={navImg} alt="this is nav img" />
+      </HashLink>
       {toggleSmallScreenList ? (
         // <FontAwesomeIcon
         //   icon={faX}
@@ -55,15 +57,19 @@ const Navbar = () => {
           </HashLink>
         ))}
       </nav>
-      <div className="header-btn">
+      <HashLink
+        className="header-btn"
+        to="https://wa.me/966594176721"
+        target="_blank"
+      >
         <div>
           <p>WHATSAPP</p>
-          <p>+966567913779</p>
+          <p>+966594176721</p>
         </div>
         <div className="header-icon-box">
           <BsWhatsapp />
         </div>
-      </div>
+      </HashLink>
 
       {/* Small Screens Nav Links */}
       {/* Small Screens Nav Links */}
