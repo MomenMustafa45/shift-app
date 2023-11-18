@@ -14,8 +14,9 @@
 .card-container .service-card-img-box {
   width: 100%;
   overflow: hidden;
-  height: 370px;
+  height: auto;
 }
+
 .card-container img {
   width: 100%;
   min-height: 100%;
