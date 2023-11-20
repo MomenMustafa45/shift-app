@@ -82,7 +82,7 @@
 /* Media Queries */
 @media (max-width: 900px) {
   .reference-parent .testimonial-box .testimonial-description {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 
