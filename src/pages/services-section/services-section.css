@@ -70,7 +70,8 @@
   }
 
   .services-parent {
-    padding: 20px 50px;
+    padding: 20px 0px;
+    padding-bottom: 140px;
   }
 
   .services-header-text h2 {
@@ -79,15 +80,15 @@
   }
 
   .services-parent .swiper-next-btn {
-    top: 55%;
-    right: 10px;
-    width: 30px;
-    height: 30px;
+    height: 45px;
+    right: 25px;
+    top: 80%;
+    width: 45px;
   }
   .services-parent .swiper-prev-btn {
-    top: 55.5%;
-    left: 10px;
-    width: 30px;
-    height: 30px;
+    height: 45px;
+    left: 25px;
+    top: 80%;
+    width: 45px;
   }
 }

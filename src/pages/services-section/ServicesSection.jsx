@@ -19,7 +19,6 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import services data
 import { servicesDataSection } from "../../utils/servicesData/servicesData";
 import ServicesCard from "../../components/services-card/ServicesCard";
-import { Typewriter } from "react-simple-typewriter";
 import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const ServicesSection = () => {
@@ -50,7 +49,7 @@ const ServicesSection = () => {
             ? 3
             : screenWidth < 900 && screenWidth > 768
             ? 2
-            : 1.25
+            : 1.15
         }
         data-aos="fade-up"
         // autoplay={{

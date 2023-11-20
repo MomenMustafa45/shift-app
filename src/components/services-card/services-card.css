@@ -36,6 +36,11 @@
 }
 
 @media (max-width: 1200px) {
+  .card-container .card-content {
+    margin-top: -25%;
+    margin-bottom: 40px;
+  }
+
   .card-container .card-content h5 {
     font-size: 20px;
     margin-top: -40px;
