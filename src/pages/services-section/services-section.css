@@ -34,6 +34,7 @@
   border-radius: 50%;
   cursor: pointer;
   color: #9747ff;
+  transform: translate(0%, 50%);
 }
 .services-parent .swiper-prev-btn {
   position: absolute;
@@ -50,6 +51,7 @@
   border-radius: 50%;
   cursor: pointer;
   color: #9747ff;
+  transform: translate(0%, 50%);
 }
 
 .services-parent .swiper {
