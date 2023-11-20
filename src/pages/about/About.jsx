@@ -86,8 +86,8 @@ const About = () => {
         </div>
       </div>
 
-      <LightBluredBall top="315px" right="-180px" />
-      <LightBluredBall top="200px" left="-205px" />
+      <LightBluredBall top="458px" right="4px" />
+      <LightBluredBall top="45px" left="20px" />
     </section>
   );
 };

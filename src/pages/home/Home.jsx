@@ -5,6 +5,7 @@ import ChooseUs from "../choose-us/ChooseUs";
 import Parteners from "../parteners/Parteners";
 import Reference from "../reference/Reference";
 import ServicesSection from "../services-section/ServicesSection";
+import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const Home = () => {
   return (

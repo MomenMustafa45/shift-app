@@ -1,10 +1,12 @@
 import "./landing-page.css";
 import landingVideo from "../../assests/landingVideo.mp4";
 import { FaArrowDown } from "react-icons/fa6";
+import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const LandingPage = () => {
   return (
     <main className="landing-parent">
+      <LightBluredBall top={556} right={-30} />
       <video
         src={landingVideo}
         autoPlay
