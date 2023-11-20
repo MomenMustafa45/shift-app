@@ -31,6 +31,7 @@ const ChooseUs = () => {
           dataAos="fade-left"
         />
       </div>
+      <LightBluredBall top="40px" right="0px" />
       <LightBluredBall top="287px" left="-172px" />
     </section>
   );
