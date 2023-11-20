@@ -53,6 +53,7 @@
 
 @media (max-width: 600px) {
   .card-container {
+    margin-left: -20%;
   }
   .card-container .service-card-img-box {
   }
