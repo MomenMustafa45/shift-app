@@ -1,11 +1,12 @@
 .footer-parent {
   padding: 50px;
-  background-image: url(http://localhost:3000/static/media/footer-background.0196ade6c5860dccf1f3.png);
-  background-size: cover;
+  /* background-image: url(http://localhost:3000/static/media/footer-background.0196ade6c5860dccf1f3.png);
+  background-size: cover; */
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  background-color: rgba(151, 71, 255, 10%);
 }
 
 .footer-parent h5 {

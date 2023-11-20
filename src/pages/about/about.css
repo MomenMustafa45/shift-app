@@ -33,15 +33,12 @@
   z-index: -1;
 }
 
-.about-container {
+.first-about-container,
+.last-about-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 45px;
-}
-
-.about-container:first-child {
-  margin-bottom: 100px;
 }
 
 .about-text {
@@ -164,12 +161,15 @@
     padding: 50px 20px;
   }
 
-  .about-container {
+  .first-about-container,
+  .last-about-container {
     flex-direction: column;
   }
-  .about-container:first-child {
+
+  .first-about-container {
     flex-direction: column-reverse;
   }
+
   .about-text {
     width: 100%;
   }

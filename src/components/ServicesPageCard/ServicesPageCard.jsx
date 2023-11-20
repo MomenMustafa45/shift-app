@@ -27,12 +27,16 @@ const ServicesPageCard = ({
     <div className="services-page-container">
       {itemsDirection === "left" ? (
         <>
-          <div className="services-text" data-aos="fade-right">
+          <div
+            className="services-text"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             <h4>
               {title.length > 0 && (
                 <>
                   <span>{title.slice(0, title.indexOf(" "))}</span>
-                  {title.slice(title.indexOf(" "))}
+                  {title.slice(title.indexOf(" "))} data-aos-duration="800"
                 </>
               )}
             </h4>
@@ -46,16 +50,28 @@ const ServicesPageCard = ({
               </div>
             ))}
           </div>
-          <div className="services-img" data-aos="fade-left">
+          <div
+            className="services-img"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             {img.length > 0 && <img src={img} alt="." />}
           </div>
         </>
       ) : (
         <>
-          <div className="services-img" data-aos="fade-right">
+          <div
+            className="services-img"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
             {img.length > 0 && <img src={img} alt="." />}
           </div>
-          <div className="services-text" data-aos="fade-left">
+          <div
+            className="services-text"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
             <h4>
               {title.length > 0 && (
                 <>

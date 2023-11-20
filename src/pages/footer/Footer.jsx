@@ -9,7 +9,11 @@ const Footer = () => {
   return (
     <footer className="footer-parent">
       <div className="footer-links-container">
-        <div className="get-touch-box" data-aos="fade-right">
+        <div
+          className="get-touch-box"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
           <h5>Get in Touch</h5>
           <p>We’d Love to hear From You</p>
           <div className="social-icons-box">
@@ -23,6 +27,7 @@ const Footer = () => {
           listHeader="ABOUT US"
           listItems={["WHO WE ARE", "Our Mission", "Our Vision", "Our Values"]}
           dataAos="fade-up"
+          data-aos-duration="800"
         />
         <FooterListBox
           listHeader="SERVICE"
@@ -35,10 +40,15 @@ const Footer = () => {
             "CONSULTING SERVICES",
           ]}
           dataAos="fade-down"
+          data-aos-duration="800"
         />
       </div>
 
-      <div className="footer-img-container" data-aos="fade-left">
+      <div
+        className="footer-img-container"
+        data-aos="fade-left"
+        data-aos-duration="800"
+      >
         <img src={footerImg} alt="this is footer img" />
       </div>
     </footer>

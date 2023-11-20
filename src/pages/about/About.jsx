@@ -28,8 +28,12 @@ const About = () => {
           </span>
         ))}
       </Marquee>
-      <div className="about-container">
-        <div className="about-text" data-aos="fade-right">
+      <div className="first-about-container">
+        <div
+          className="about-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
           <h4>
             WHO WE <span>ARE</span>
           </h4>
@@ -44,15 +48,19 @@ const About = () => {
             response.
           </p>
         </div>
-        <div className="about-img" data-aos="fade-left">
+        <div className="about-img" data-aos="fade-left" data-aos-duration="800">
           <img src={img1} alt="this is img" />
         </div>
       </div>
-      <div className="about-container">
-        <div className="about-img" data-aos="fade-left">
+      <div className="last-about-container">
+        <div className="about-img" data-aos="fade-left" data-aos-duration="800">
           <img src={img2} alt="this is img" />
         </div>
-        <div className="about-text" data-aos="fade-right">
+        <div
+          className="about-text"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
           <div className="about-text-box">
             <h4>Our Mission</h4>
             <p>

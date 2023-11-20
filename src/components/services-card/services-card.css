@@ -48,11 +48,8 @@
 
 @media (max-width: 600px) {
   .card-container {
-    width: 170px;
   }
   .card-container .service-card-img-box {
-    max-height: 141px;
-    min-height: 141px;
   }
   .card-container .card-content h5 {
     font-size: 12px;

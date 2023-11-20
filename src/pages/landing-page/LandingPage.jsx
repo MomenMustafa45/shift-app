@@ -1,17 +1,6 @@
 import "./landing-page.css";
 import landingVideo from "../../assests/landingVideo.mp4";
 import { FaArrowDown } from "react-icons/fa6";
-import { HashLink } from "react-router-hash-link";
-import Marquee from "react-fast-marquee";
-
-const textLineArray = [
-  { text: "Data Analytics", path: "/data-analytics" },
-  { text: "Business process Automation", path: "/business-process-automation" },
-  { text: "Artificial Intelligence - Ai", path: "/artificial-intelligence" },
-  { text: "Mobility Services", path: "/mobility-services" },
-  { text: "Enterprise Project Management", path: "/enterprise-management" },
-  { text: "CONSULTING SERVICES", path: "/consulting-services" },
-];
 
 const LandingPage = () => {
   return (
@@ -28,17 +17,29 @@ const LandingPage = () => {
       {/* Landing Content */}
       {/* Landing Content */}
       <div className="landing-content">
-        <h1 className="landing-header-text-bg" data-aos="fade-right">
+        <h1
+          className="landing-header-text-bg"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
           SLOGAN
         </h1>
-        <h1 className="landing-header-text" data-aos="fade-left">
+        <h1
+          className="landing-header-text"
+          data-aos="fade-left"
+          data-aos-duration="800"
+        >
           SLOGAN
         </h1>
-        <p className="landing-text" data-aos="fade-up">
+        <p className="landing-text" data-aos="fade-up" data-aos-duration="800">
           Time is now to invest in Digital Transformation to win in today’s
           world
         </p>
-        <div className="landing-content-btn" data-aos="fade-right">
+        <div
+          className="landing-content-btn"
+          data-aos="fade-right"
+          data-aos-duration="800"
+        >
           <p>Let's Go</p>
           <div>
             <FaArrowDown />

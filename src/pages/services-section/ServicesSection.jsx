@@ -51,10 +51,10 @@ const ServicesSection = () => {
             : 1.25
         }
         data-aos="fade-up"
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
+        // autoplay={{
+        //   delay: 4000,
+        //   disableOnInteraction: false,
+        // }}
       >
         {servicesDataSection.map((card, index) => (
           <>

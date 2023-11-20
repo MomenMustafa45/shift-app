@@ -7,7 +7,7 @@ const ChooseUsReason = ({ reason, hoverReason, dataAos }) => {
   const [isMouseHovered, setIsMouseHovered] = useState(false);
 
   return (
-    <div className="reason-box" data-aos={dataAos}>
+    <div className="reason-box" data-aos={dataAos} data-aos-duration="800">
       <div
         className="reason-text-container"
         onMouseEnter={() => setIsMouseHovered(true)}

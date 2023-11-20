@@ -28,6 +28,7 @@ const Reference = () => {
           delay: 5000,
           disableOnInteraction: false,
         }}
+        data-aos-duration="800"
       >
         {testimonialsData.map((t, idx) => (
           <>

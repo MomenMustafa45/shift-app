@@ -1,10 +1,12 @@
 .landing-parent {
   position: relative;
   background-color: #000828;
-  padding-bottom: 40px;
+
   overflow: hidden;
   max-width: 2000px;
   margin: auto;
+  margin-bottom: -120px;
+  height: 100vh;
 }
 
 .landing-video {
@@ -157,7 +159,7 @@
 /* Media Screens */
 @media (max-width: 600px) {
   .landing-parent {
-    height: auto;
+    height: 100vh;
   }
   .landing-content .landing-header-text {
     font-size: 30px;

@@ -41,6 +41,7 @@ const Parteners = () => {
           delay: 4000,
           disableOnInteraction: false,
         }}
+        data-aos-duration="800"
       >
         {partnersData.map((p, index) => (
           <>
