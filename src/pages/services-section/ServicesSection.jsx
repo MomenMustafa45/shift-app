@@ -43,7 +43,7 @@ const ServicesSection = () => {
         onSwiper={(it) => (sliderRef.current = it)}
         modules={[Navigation, Autoplay]}
         className="mySwiper"
-        spaceBetween={0}
+        spaceBetween="-50"
         slidesPerView={
           screenWidth > 768
             ? 3
@@ -52,10 +52,10 @@ const ServicesSection = () => {
             : 1.15
         }
         data-aos="fade-up"
-        // autoplay={{
-        //   delay: 4000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 4000,
+          disableOnInteraction: false,
+        }}
       >
         {servicesDataSection.map((card, index) => (
           <>
