@@ -1,6 +1,7 @@
 .services-page-parent {
   overflow: hidden;
   background-color: #000828;
+  padding-top: 80px;
 }
 
 .services-page-parent .services-page-section {
@@ -41,8 +42,8 @@
 .services-page-landing::after {
   position: absolute;
   content: "";
-  width: 453px;
-  height: 453px;
+  width: 400px;
+  height: 400px;
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
@@ -138,7 +139,7 @@
   margin-top: auto;
   margin-bottom: auto;
   margin-bottom: 180px;
-  margin-top: -100px;
+  margin-top: 15px;
 }
 
 .services-page-parent .img-desc-box::after {

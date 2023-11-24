@@ -16,6 +16,7 @@
   border-radius: 10px;
   box-sizing: border-box;
   padding: 10px 35px;
+  text-decoration: none;
 }
 
 .services-page-container .services-text h4 {

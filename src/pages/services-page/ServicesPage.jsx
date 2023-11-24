@@ -55,6 +55,7 @@ const ServicesPage = ({
           ? cardsDataSecond.map((service, index) => (
               <>
                 <ServicesPageCard
+                  url={service.url}
                   title={service.title}
                   description={service.description}
                   img={service.img}
@@ -67,6 +68,7 @@ const ServicesPage = ({
           ? cardsDataThird.map((service, index) => (
               <>
                 <ServicesPageCard
+                  url={service.url}
                   title={service.title}
                   description={service.description}
                   img={service.img}
@@ -78,6 +80,7 @@ const ServicesPage = ({
           : cardsData.map((service, index) => (
               <>
                 <ServicesPageCard
+                  url={service.url}
                   title={service.title}
                   description={service.description}
                   img={service.img}

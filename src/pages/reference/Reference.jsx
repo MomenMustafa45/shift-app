@@ -1,5 +1,6 @@
 import React from "react";
 import "./reference.css";
+import "../../components/network-img/network-img.css";
 import ReactStars from "react-rating-stars-component";
 import { Swiper, SwiperSlide } from "swiper/react";
 

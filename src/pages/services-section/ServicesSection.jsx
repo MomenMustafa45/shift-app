@@ -19,7 +19,6 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 // import services data
 import { servicesDataSection } from "../../utils/servicesData/servicesData";
 import ServicesCard from "../../components/services-card/ServicesCard";
-import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const ServicesSection = () => {
   const [screenWidth, setScreenWidth] = useState(null);

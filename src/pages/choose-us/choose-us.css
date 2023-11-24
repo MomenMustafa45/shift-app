@@ -27,4 +27,11 @@
   .choose-us-parent h3 {
     font-size: 30px;
   }
+
+  .choose-us-parent .network-img-parent {
+    top: 0%;
+  }
+  .choose-us-parent .network-img-parent img {
+    height: 210px;
+  }
 }

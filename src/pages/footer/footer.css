@@ -37,8 +37,24 @@
   justify-content: space-between;
   font-size: 20px;
 }
+
+.footer-parent .footer-links-container .get-touch-box .social-icons-box a {
+  color: #fff;
+}
 .footer-parent .footer-links-container .get-touch-box svg {
   cursor: pointer;
+}
+
+.footer-parent .footer-links-container .get-touch-box .mail-box {
+  display: flex;
+  align-items: center;
+}
+
+.footer-parent .footer-links-container .get-touch-box .mail-box p:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
 }
 
 /* End of touch and social box */

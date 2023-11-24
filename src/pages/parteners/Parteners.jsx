@@ -10,7 +10,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 import { partnersData } from "../../utils/partenersData/partenersData";
 import { useEffect, useState } from "react";
-import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 
 const Parteners = () => {
   const [windowScreenWidth, setWindowScreenWidth] = useState(null);

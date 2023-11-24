@@ -1,9 +1,9 @@
-import servicePageImg1 from "../../assests/services-page-images/servicePageImg1.png";
-import servicePageImg2 from "../../assests/services-page-images/servicePageImg2.png";
-import servicePageImg3 from "../../assests/services-page-images/servicePageImg3.png";
-import servicePageImg4 from "../../assests/services-page-images/servicePageImg4.png";
-import servicePageImg5 from "../../assests/services-page-images/servicePageImg5.png";
-import servicePageImg6 from "../../assests/services-page-images/servicePageImg6.png";
+// import servicePageImg1 from "../../assests/services-page-images/servicePageImg1.png";
+// import servicePageImg2 from "../../assests/services-page-images/servicePageImg2.png";
+// import servicePageImg3 from "../../assests/services-page-images/servicePageImg3.png";
+// import servicePageImg4 from "../../assests/services-page-images/servicePageImg4.png";
+// import servicePageImg5 from "../../assests/services-page-images/servicePageImg5.png";
+// import servicePageImg6 from "../../assests/services-page-images/servicePageImg6.png";
 
 import serviceSectionImg1 from "../../assests/services-section-images/serviceImg1.png";
 import serviceSectionImg2 from "../../assests/services-section-images/serviceImg2.png";
@@ -14,7 +14,7 @@ import serviceSectionImg6 from "../../assests/services-section-images/serviceImg
 
 export const servicesDataPage = [
   {
-    img: servicePageImg2,
+    img: serviceSectionImg1,
     title: "Data Analytics",
     url: "/data-analytics",
     description: [
@@ -22,7 +22,7 @@ export const servicesDataPage = [
     ],
   },
   {
-    img: servicePageImg1,
+    img: serviceSectionImg2,
     title: "Business process automation",
     url: "/business-process-automation",
     description: [
@@ -30,7 +30,7 @@ export const servicesDataPage = [
     ],
   },
   {
-    img: servicePageImg3,
+    img: serviceSectionImg3,
     title: "Artificial Intelligence (AI) & Machine Learning (ML)",
     url: "/artificial-intelligence",
     description: [
@@ -38,7 +38,7 @@ export const servicesDataPage = [
     ],
   },
   {
-    img: servicePageImg4,
+    img: serviceSectionImg4,
     title: "Mobility Services",
     url: "mobility-services",
     description: [
@@ -46,7 +46,7 @@ export const servicesDataPage = [
     ],
   },
   {
-    img: servicePageImg5,
+    img: serviceSectionImg5,
     title: "Enterprise project Management",
     url: "/enterprise-management",
     description: [
@@ -54,7 +54,7 @@ export const servicesDataPage = [
     ],
   },
   {
-    img: servicePageImg6,
+    img: serviceSectionImg6,
     title: "Consulting Services",
     url: "/consulting-services",
     description: [
