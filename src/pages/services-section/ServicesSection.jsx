@@ -86,8 +86,8 @@ const ServicesSection = () => {
         <FontAwesomeIcon icon={faArrowLeft} />
       </div>
       {/* Swiper Arrows */}
-      <LightBluredBall top="-50px" right="-50px" />
-      <LightBluredBall top="550px" left="20px" />
+      {/* <LightBluredBall top="-50px" right="-50px" />
+      <LightBluredBall top="550px" left="20px" /> */}
     </section>
   );
 };

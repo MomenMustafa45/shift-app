@@ -58,8 +58,8 @@ const Parteners = () => {
         ))}
       </Swiper>
 
-      <LightBluredBall top="20px" right="0px" />
-      <LightBluredBall top="80%" left="-20px" />
+      {/* <LightBluredBall top="20px" right="0px" />
+      <LightBluredBall top="80%" left="-20px" /> */}
     </section>
   );
 };

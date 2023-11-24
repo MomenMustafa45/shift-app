@@ -10,9 +10,15 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { testimonialsData } from "../../utils/testimonialsData/testimonialData";
 
+import NetworkImg from "../../components/network-img/NetworkImg";
+import networkImg1 from "../../assests/networks-imgs/Group 109.png";
+import networkImg2 from "../../assests/networks-imgs/Group 108.png";
 const Reference = () => {
   return (
     <section className="reference-parent" id="reference">
+      <NetworkImg img={networkImg1} height="450px" right="0" top="10%" />
+      <NetworkImg img={networkImg2} top="20%" left="0" height="420px" />
+
       <h3>
         REFERENCE <span>TESTIMONIALS</span>
       </h3>

@@ -1,10 +1,13 @@
-import ChooseUsReason from "../../components/choose-us-reason/ChooseUsReason";
-import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 import "./choose-us.css";
+import ChooseUsReason from "../../components/choose-us-reason/ChooseUsReason";
+import NetworkImg from "../../components/network-img/NetworkImg";
+import networkImg1 from "../../assests/networks-imgs/Group 127.png";
 
 const ChooseUs = () => {
   return (
     <section className="choose-us-parent">
+      <NetworkImg img={networkImg1} left="0" top="-20%" />
+
       <h3>
         WHY CHOOSE <span>US</span>
       </h3>
@@ -31,8 +34,6 @@ const ChooseUs = () => {
           dataAos="fade-left"
         />
       </div>
-      <LightBluredBall top="40px" right="0px" />
-      <LightBluredBall top="287px" left="-172px" />
     </section>
   );
 };

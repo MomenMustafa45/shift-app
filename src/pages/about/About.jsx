@@ -2,9 +2,11 @@ import React from "react";
 import "./about.css";
 import img1 from "../../assests/about1.png";
 import img2 from "../../assests/about2.png";
-import LightBluredBall from "../../components/light-blured-ball/LightBluredBall";
 import Marquee from "react-fast-marquee";
 import { HashLink } from "react-router-hash-link";
+import NetworkImg from "../../components/network-img/NetworkImg";
+import networkImage1 from "../../assests/networks-imgs/decoration.png";
+import networkImage2 from "../../assests/networks-imgs/Group 111.png";
 
 const textLineArray = [
   { text: "Data Analytics", path: "/data-analytics" },
@@ -18,6 +20,8 @@ const textLineArray = [
 const About = () => {
   return (
     <section id="about" className="about-parent">
+      <NetworkImg img={networkImage1} top="75%" right="0" height="240px" />
+      <NetworkImg img={networkImage2} top="85%" left="0" height="240px" />
       <Marquee style={{ marginBottom: "80px" }}>
         {textLineArray.map((p) => (
           <span>
@@ -85,9 +89,9 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      {/* 
       <LightBluredBall top="458px" right="4px" />
-      <LightBluredBall top="45px" left="20px" />
+      <LightBluredBall top="45px" left="20px" /> */}
     </section>
   );
 };
