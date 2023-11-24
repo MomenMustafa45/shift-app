@@ -97,9 +97,9 @@
   }
 
   .reference-parent .network-img-parent {
-    top: 45%;
+    top: 45% !important;
   }
   .reference-parent .network-img-parent img {
-    height: 200px;
+    height: 200px !important;
   }
 }

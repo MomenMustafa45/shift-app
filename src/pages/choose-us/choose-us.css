@@ -29,7 +29,7 @@
   }
 
   .choose-us-parent .network-img-parent {
-    top: 0%;
+    top: 0% !important;
   }
   .choose-us-parent .network-img-parent img {
     height: 210px;
