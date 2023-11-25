@@ -19,7 +19,7 @@ const Parteners = () => {
   }, []);
 
   return (
-    <section className="partners-parent" id="parteners">
+    <section className="partners-parent" id="partners">
       <h3>
         OUR <span>PARTNERS</span>
       </h3>
