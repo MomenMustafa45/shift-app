@@ -246,4 +246,7 @@
   .services-page-parent .img-desc-box .img-container img {
     width: 100%;
   }
+  .services-page-parent .img-desc-box .img-container {
+    margin-bottom: -20px;
+  }
 }
