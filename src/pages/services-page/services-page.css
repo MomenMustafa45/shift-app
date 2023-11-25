@@ -249,4 +249,11 @@
   .services-page-parent .img-desc-box .img-container {
     margin-bottom: -20px;
   }
+
+  .services-page-parent
+    .services-page-section
+    .pagination-services-container
+    p {
+    margin-right: 15px;
+  }
 }
