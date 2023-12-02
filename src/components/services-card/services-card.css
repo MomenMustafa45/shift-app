@@ -12,9 +12,10 @@
 }
 
 .card-container .service-card-img-box {
-  width: 100%;
+  width: 75%;
   overflow: hidden;
   height: auto;
+  margin: auto;
 }
 
 .card-container img {
@@ -24,7 +25,7 @@
 
 .card-container .card-content h5 {
   margin: 0;
-  margin-top: -90px;
+  margin-top: 0px;
   font-size: 20px;
   color: #ffffff;
   text-align: center;
@@ -42,12 +43,21 @@
   }
 
   .card-container .card-content h5 {
-    font-size: 20px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-top: 60px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .card-container .service-card-img-box {
     /* max-height: 200px; */
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container .card-content h5 {
+    margin-top: 100px;
   }
 }
 
@@ -59,7 +69,7 @@
   }
   .card-container .card-content h5 {
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 130px;
   }
   .card-container .card-content p {
     font-size: 12px;

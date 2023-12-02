@@ -49,7 +49,7 @@
   transform: translate(50%, -50%);
   background-image: linear-gradient(to right, #9747ff, transparent 17%);
   border-radius: 50%;
-  z-index: 9999999999999999;
+  z-index: 500;
   animation-name: circle-rotate;
   animation-timing-function: linear;
   animation-iteration-count: infinite;

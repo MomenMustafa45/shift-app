@@ -40,7 +40,7 @@ export const servicesDataPage = [
   {
     img: serviceSectionImg4,
     title: "Mobility Services",
-    url: "mobility-services",
+    url: "/mobility-services",
     description: [
       "Shift offers professional, affordable, and flexible web design services for businesses and organizations as we as for personal projects you may be working on.",
     ],

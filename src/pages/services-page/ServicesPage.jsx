@@ -31,7 +31,11 @@ const ServicesPage = ({
       {headerPageImg && (
         <div className="img-desc-box">
           <div className="img-container">
-            <img src={headerPageImg} alt="" />
+            <img
+              src={headerPageImg}
+              alt=""
+              style={{ maxWidth: "500px", maxHeight: "740px" }}
+            />
           </div>
           <p>{headerPageText}</p>
         </div>
