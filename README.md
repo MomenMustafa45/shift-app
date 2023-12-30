@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Shift Advanced
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Briefly describe your project in one or two sentences.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [React Installation](#getting-started)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to Shift Advanced – where innovation meets excellence. We understand the dynamic landscape of modern businesses, and we are here to redefine your online presence. Our frontend website app is crafted with precision and designed to elevate your company's digital experience to unparalleled heights.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+List and briefly describe the main features of your project. Use bullet points for clarity.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- With Shift Advanced Technology Data Management solutions, you are able to implement an appropriate information management foundation that can deliver integrated, accurate, and timely data across your organization.
+- Go digital faster with Shift Advanced Technology easy-to-use and powerful business process management and intelligent automation software designed to eliminate paper processes and repetitive, manual tasks with clicks
+- Shift Advanced IT consulting are advisory services that help clients assess different technology strategies and, in doing so, align their technology strategies with their business or process strategies
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- HTML
+- CSS
+- JavaScript
+- React.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
+**1.Clone using the following repo link**
+  git clone https://github.com/fullstacktutorials/install-reactjs.git my-first-project
+  
+**2.Go to the project folder and run npm install**
+  *cd my-project
+  *npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**3.Now run your app**
+  *npm start
 
-### `npm run eject`
+**Note - my-first-project - you can change this with your project name.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Reactjs Installation
+Reactjs can be installed by using any of the following ways:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.npx
+2.npm
+3.yarn
+4.create-react-app
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
