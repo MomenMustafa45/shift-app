@@ -1,7 +1,8 @@
 # Shift Advanced
 
-Briefly describe your project in one or two sentences.
+Helping you innovation in the future your digital transformation are looking
 
+<https://shift-adv.com/>
 ## Table of Contents
 
 - [Introduction](#introduction)
